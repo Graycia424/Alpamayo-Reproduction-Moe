@@ -1,0 +1,478 @@
+# -*- coding: utf-8 -*-
+"""
+本文件属于 Alpamayo 项目的轨迹 MoE 模块。
+主要功能：基于 Alpamayo-R1 架构训练一个轻量级替换专家节点（多卡 DDP 并行训练版本）。
+【关键差异】：它在提取 VLM KV Cache 时，是等到思维链文本（CoC, Chain-of-Thought）彻底生成完全之后才提取的！这意味着这个轻量专家可以利用 VLM 深度的语言逻辑特征来推导物理世界的最终控制动作（Flow Matching）。
+
+【和其他文件的依赖调用关系】
+向上依赖（调了谁）：
+- 高度依赖 `alpamayo_r1.models.alpamayo_r1` 特别是它丰富的 Logits 和 Tokenizer 生成处理器组件。
+"""
+
+from __future__ import annotations
+import argparse
+import copy
+import logging
+import os
+import sys
+from pathlib import Path
+from typing import Any
+
+import numpy as np
+import pandas as pd
+import scipy.spatial.transform as spt
+import torch
+import torch.distributed as dist
+from einops import rearrange
+from torch.nn.parallel import DistributedDataParallel as DDP
+from torch.utils.data import DataLoader, Dataset, DistributedSampler
+from transformers import AutoModel, StoppingCriteriaList
+from transformers.generation.logits_process import LogitsProcessorList
+
+from alpamayo_r1 import helper
+from alpamayo_r1.models.alpamayo_r1 import AlpamayoR1, ExpertLogitsProcessor
+from alpamayo_r1.models.token_utils import StopAfterEOS, to_special_token, replace_padding_after_eos
+from dataset import PhysicalAIAVDatasetInterface
+
+logging.basicConfig(level=logging.INFO, format="[%(levelname)s] %(message)s", stream=sys.stdout)
+logger = logging.getLogger(__name__)
+
+# ---------------------------------------------------------------------------
+# Lightweight expert config overrides
+# ---------------------------------------------------------------------------
+LIGHT_EXPERT_CFG = {
+    "dtype": "bfloat16",
+    "hidden_size": 3584,           # 保持原始宽度
+    "num_hidden_layers": 8,        # 只减层数 28 -> 8
+    "intermediate_size": 5120,     # 保持原始中间层
+}
+
+LIGHT_ACTION_IN_PROJ_CFG = {
+    "_target_": "alpamayo_r1.models.action_in_proj.PerWaypointActionInProjV2",
+    "hidden_size": 1024,
+    "max_freq": 30.0,
+    "num_enc_layers": 1,
+    "num_fourier_feats": 8,
+}
+
+
+# ---------------------------------------------------------------------------
+# Dataset (same as train_moe.py)
+# ---------------------------------------------------------------------------
+class AlpamayoTrainDataset(Dataset):
+    def __init__(
+        self,
+        clip_ids: list[str],
+        t0_offsets_us: list[int] | None = None,
+        num_history_steps: int = 16,
+        num_future_steps: int = 64,
+        time_step: float = 0.1,
+        num_frames: int = 4,
+    ):
+        self.avdi = PhysicalAIAVDatasetInterface()
+        self.num_history_steps = num_history_steps
+        self.num_future_steps = num_future_steps
+        self.time_step = time_step
+        self.num_frames = num_frames
+        self.samples: list[tuple[str, int]] = []
+        for cid in clip_ids:
+            if t0_offsets_us is not None:
+                for t0 in t0_offsets_us:
+                    self.samples.append((cid, t0))
+            else:
+                for t0 in range(2_000_000, 13_000_000, 1_000_000):
+                    self.samples.append((cid, t0))
+        self.camera_features = [
+            self.avdi.features.CAMERA.CAMERA_CROSS_LEFT_120FOV,
+            self.avdi.features.CAMERA.CAMERA_FRONT_WIDE_120FOV,
+            self.avdi.features.CAMERA.CAMERA_CROSS_RIGHT_120FOV,
+            self.avdi.features.CAMERA.CAMERA_FRONT_TELE_30FOV,
+        ]
+
+    def __len__(self):
+        return len(self.samples)
+
+    def __getitem__(self, idx: int) -> dict[str, Any]:
+        clip_id, t0_us = self.samples[idx]
+        dt_us = int(self.time_step * 1_000_000)
+        egomotion = self.avdi.get_clip_feature(
+            clip_id, self.avdi.features.LABELS.EGOMOTION, types="egomotion"
+        )
+        history_ts = t0_us + np.arange(
+            -(self.num_history_steps - 1) * dt_us, dt_us // 2, dt_us
+        ).astype(np.int64)
+        future_ts = t0_us + np.arange(
+            dt_us, int((self.num_future_steps + 0.5) * dt_us), dt_us
+        ).astype(np.int64)
+        ego_hist = egomotion(history_ts)
+        ego_fut = egomotion(future_ts)
+        hist_xyz = ego_hist.pose.translation
+        hist_quat = ego_hist.pose.rotation.as_quat()
+        fut_xyz = ego_fut.pose.translation
+        fut_quat = ego_fut.pose.rotation.as_quat()
+        t0_xyz = hist_xyz[-1].copy()
+        t0_rot_inv = spt.Rotation.from_quat(hist_quat[-1]).inv()
+        hist_xyz_local = t0_rot_inv.apply(hist_xyz - t0_xyz)
+        fut_xyz_local = t0_rot_inv.apply(fut_xyz - t0_xyz)
+        hist_rot_local = (t0_rot_inv * spt.Rotation.from_quat(hist_quat)).as_matrix()
+        fut_rot_local = (t0_rot_inv * spt.Rotation.from_quat(fut_quat)).as_matrix()
+        image_ts = np.array(
+            [t0_us - (self.num_frames - 1 - i) * dt_us for i in range(self.num_frames)],
+            dtype=np.int64,
+        )
+        frames_list = []
+        for cam_feat in self.camera_features:
+            cam = self.avdi.get_clip_feature(clip_id, cam_feat, types="camera")
+            frames_np, _ = cam.decode_images_from_timestamps(image_ts)
+            frames_list.append(torch.from_numpy(frames_np))
+        all_frames = torch.stack(frames_list, dim=0)
+        all_frames = rearrange(all_frames, "n t h w c -> (n t) c h w")
+        return {
+            "image_frames": all_frames,
+            "ego_history_xyz": torch.from_numpy(hist_xyz_local).float().unsqueeze(0),
+            "ego_history_rot": torch.from_numpy(hist_rot_local).float().unsqueeze(0),
+            "ego_future_xyz": torch.from_numpy(fut_xyz_local).float().unsqueeze(0),
+            "ego_future_rot": torch.from_numpy(fut_rot_local).float().unsqueeze(0),
+        }
+
+
+def collate_fn(batch):
+    return {
+        "image_frames": [b["image_frames"] for b in batch],
+        "ego_history_xyz": torch.stack([b["ego_history_xyz"] for b in batch]),
+        "ego_history_rot": torch.stack([b["ego_history_rot"] for b in batch]),
+        "ego_future_xyz": torch.stack([b["ego_future_xyz"] for b in batch]),
+        "ego_future_rot": torch.stack([b["ego_future_rot"] for b in batch]),
+    }
+
+
+# ---------------------------------------------------------------------------
+# Build model with lightweight expert
+# ---------------------------------------------------------------------------
+def build_model_with_light_expert(model_dir: str, device: str, dtype: torch.dtype) -> AlpamayoR1:
+    """Load pretrained AlpamayoR1, replace expert/in_proj/out_proj with lightweight versions."""
+    import hydra.utils as hyu
+
+    model = AlpamayoR1.from_pretrained(model_dir, torch_dtype=dtype).to(device=device, dtype=dtype)
+
+    # Override expert_cfg in config for lightweight expert
+    config = model.config
+    config.expert_cfg = {**config.expert_cfg, **LIGHT_EXPERT_CFG}
+    config.action_in_proj_cfg = LIGHT_ACTION_IN_PROJ_CFG
+
+    # Build new lightweight expert from updated text_config
+    expert_text_config = copy.deepcopy(model.vlm.config.text_config)
+    for k, v in LIGHT_EXPERT_CFG.items():
+        if k != "dtype":
+            setattr(expert_text_config, k, v)
+
+    new_expert = AutoModel.from_config(expert_text_config).to(device=device, dtype=dtype)
+    del new_expert.embed_tokens
+
+    new_in_proj = hyu.instantiate(
+        LIGHT_ACTION_IN_PROJ_CFG,
+        in_dims=model.action_space.get_action_space_dims(),
+        out_dim=1024,
+    ).to(device=device, dtype=dtype)
+
+    new_out_proj = torch.nn.Linear(1024, model.action_space.get_action_space_dims()[-1]).to(
+        device=device, dtype=dtype
+    )
+
+    model.expert = new_expert
+    model.action_in_proj = new_in_proj
+    model.action_out_proj = new_out_proj
+
+    # Freeze everything except the three new modules
+    for p in model.parameters():
+        p.requires_grad = False
+    for m in [model.expert, model.action_in_proj, model.action_out_proj]:
+        for p in m.parameters():
+            p.requires_grad = True
+
+    trainable = sum(p.numel() for p in model.parameters() if p.requires_grad)
+    total = sum(p.numel() for p in model.parameters())
+    logger.info("Parameters: %d total, %d trainable (%.2f%%)", total, trainable, 100 * trainable / total)
+    return model
+
+
+# ---------------------------------------------------------------------------
+# Training loop
+# ---------------------------------------------------------------------------
+def train(args):
+    local_rank = int(os.environ.get("LOCAL_RANK", 0))
+    world_size = int(os.environ.get("WORLD_SIZE", 1))
+    is_ddp = world_size > 1
+
+    if is_ddp:
+        dist.init_process_group(backend="nccl")
+        torch.cuda.set_device(local_rank)
+
+    device = f"cuda:{local_rank}" if torch.cuda.is_available() else args.device
+    dtype = torch.bfloat16
+
+    model = build_model_with_light_expert(args.base_model_dir, device, dtype)
+    model.train()
+
+    if is_ddp:
+        model = DDP(model, device_ids=[local_rank], find_unused_parameters=True)
+
+    raw_model = model.module if is_ddp else model
+
+    optimizer = torch.optim.AdamW(
+        [p for p in model.parameters() if p.requires_grad],
+        lr=args.lr,
+        weight_decay=args.weight_decay,
+    )
+
+    processor = helper.get_processor(raw_model.tokenizer)
+
+    clip_index = pd.read_parquet(args.clip_index)
+    clip_index = clip_index[clip_index["clip_is_valid"]]
+    chunk_mask = (clip_index["chunk"] >= args.chunk_start) & (clip_index["chunk"] <= args.chunk_end)
+    clip_ids = clip_index[chunk_mask].index.tolist()
+    if local_rank == 0:
+        logger.info("Loaded %d clips from chunks %d-%d", len(clip_ids), args.chunk_start, args.chunk_end)
+
+    dataset = AlpamayoTrainDataset(clip_ids=clip_ids)
+    sampler = DistributedSampler(dataset, shuffle=True) if is_ddp else None
+    dataloader = DataLoader(
+        dataset, batch_size=args.batch_size, shuffle=(sampler is None),
+        num_workers=args.num_workers, collate_fn=collate_fn, sampler=sampler,
+    )
+
+    step = 0
+    while step < args.max_steps:
+        if is_ddp:
+            sampler.set_epoch(step)
+        for batch in dataloader:
+            if step >= args.max_steps:
+                break
+            step += 1
+
+            B = batch["ego_history_xyz"].shape[0]
+            hist_xyz = batch["ego_history_xyz"].to(device)
+            hist_rot = batch["ego_history_rot"].to(device)
+            fut_xyz = batch["ego_future_xyz"].to(device)
+            fut_rot = batch["ego_future_rot"].to(device)
+
+            gt_actions = raw_model.action_space.traj_to_action(
+                traj_history_xyz=hist_xyz[:, 0],
+                traj_history_rot=hist_rot[:, 0],
+                traj_future_xyz=fut_xyz[:, 0],
+                traj_future_rot=fut_rot[:, 0],
+            )  # (B, T_f, 2)
+
+            all_input_ids, all_pixel_values, all_image_grid_thw = [], [], []
+            for i in range(B):
+                messages = helper.create_message(batch["image_frames"][i])
+                inputs = processor.apply_chat_template(
+                    messages, tokenize=True, add_generation_prompt=False,
+                    continue_final_message=True, return_dict=True, return_tensors="pt",
+                )
+                all_input_ids.append(inputs["input_ids"].squeeze(0))
+                if "pixel_values" in inputs:
+                    all_pixel_values.append(inputs["pixel_values"].squeeze(0))
+                if "image_grid_thw" in inputs:
+                    all_image_grid_thw.append(inputs["image_grid_thw"].squeeze(0))
+
+            max_len = max(ids.shape[0] for ids in all_input_ids)
+            pad_id = raw_model.tokenizer.pad_token_id or 0
+            input_ids = torch.full((B, max_len), pad_id, dtype=torch.long)
+            attention_mask = torch.zeros(B, max_len, dtype=torch.long)
+            for i, ids in enumerate(all_input_ids):
+                L = ids.shape[0]
+                input_ids[i, :L] = ids
+                attention_mask[i, :L] = 1
+            input_ids = input_ids.to(device)
+            attention_mask = attention_mask.to(device)
+
+            vlm_kwargs: dict[str, Any] = {}
+            if all_pixel_values:
+                vlm_kwargs["pixel_values"] = torch.cat(all_pixel_values, dim=0).to(device)
+            if all_image_grid_thw:
+                vlm_kwargs["image_grid_thw"] = torch.cat(all_image_grid_thw, dim=0).to(device)
+
+            traj_data = {"ego_history_xyz": hist_xyz, "ego_history_rot": hist_rot}
+
+            device_type = device.split(":")[0]
+            with torch.autocast(device_type=device_type, dtype=dtype):
+                # 1) Generate CoC (Chain-of-Thought) using VLM, then get KV cache
+                fused_input_ids = raw_model.fuse_traj_tokens(input_ids, traj_data)
+                with torch.no_grad():
+                    # Setup generation config for CoC
+                    gen_config = raw_model.vlm.generation_config
+                    gen_config.max_new_tokens = args.max_coc_tokens
+                    gen_config.do_sample = True
+                    gen_config.temperature = 0.6
+                    gen_config.top_p = 0.98
+                    gen_config.pad_token_id = raw_model.tokenizer.pad_token_id
+                    gen_config.return_dict_in_generate = True
+                    
+                    # Stop after <traj_future_start> token
+                    eos_token_id = raw_model.tokenizer.convert_tokens_to_ids(to_special_token("traj_future_start"))
+                    stopping_criteria = StoppingCriteriaList([StopAfterEOS(eos_token_id=eos_token_id)])
+                    logits_processor = LogitsProcessorList([
+                        ExpertLogitsProcessor(
+                            traj_token_offset=raw_model.config.traj_token_start_idx,
+                            traj_vocab_size=raw_model.config.traj_vocab_size,
+                        )
+                    ])
+                    
+                    # Generate CoC tokens
+                    vlm_outputs = raw_model.vlm.generate(
+                        input_ids=fused_input_ids,
+                        generation_config=gen_config,
+                        stopping_criteria=stopping_criteria,
+                        logits_processor=logits_processor,
+                        **vlm_kwargs,
+                    )
+                    
+                    # Replace padding after EOS
+                    vlm_outputs.sequences = replace_padding_after_eos(
+                        token_ids=vlm_outputs.sequences,
+                        eos_token_id=eos_token_id,
+                        pad_token_id=raw_model.tokenizer.pad_token_id,
+                    )
+                    # KV cache now contains CoC reasoning tokens
+                    prompt_cache = vlm_outputs.past_key_values
+                    rope_deltas = raw_model.vlm.model.rope_deltas
+
+                # 2) Flow-matching loss using post-CoC KV cache
+                n_diffusion_tokens = raw_model.action_space.get_action_space_dims()[0]
+                loss = _compute_fm_loss_with_coc(
+                    raw_model, gt_actions, prompt_cache, vlm_outputs.sequences,
+                    eos_token_id, rope_deltas, n_diffusion_tokens, device, dtype
+                )
+
+            optimizer.zero_grad()
+            loss.backward()
+            torch.nn.utils.clip_grad_norm_(
+                [p for p in model.parameters() if p.requires_grad], 1.0
+            )
+            optimizer.step()
+
+            # Crop cache to avoid memory leak (not needed here since we don't reuse)
+            del prompt_cache
+
+            if local_rank == 0:
+                if step % args.log_every == 0:
+                    logger.info("step %d | fm_loss %.4f", step, loss.item())
+
+                if step % args.save_every == 0:
+                    save_path = Path(args.output_dir) / f"checkpoint-{step}"
+                    _save_light_expert(raw_model, save_path)
+                    logger.info("Saved checkpoint to %s", save_path)
+
+    if local_rank == 0:
+        final_path = Path(args.output_dir) / "final"
+        _save_light_expert(raw_model, final_path)
+        logger.info("Training complete. Final model saved to %s", final_path)
+
+    if is_ddp:
+        dist.destroy_process_group()
+
+
+def _compute_fm_loss_with_coc(
+    model: AlpamayoR1,
+    gt_actions: torch.Tensor,
+    prompt_cache,
+    generated_sequences: torch.Tensor,
+    eos_token_id: int,
+    rope_deltas: torch.Tensor,
+    n_diffusion_tokens: int,
+    device: str,
+    dtype: torch.dtype,
+) -> torch.Tensor:
+    """Compute flow-matching loss using KV cache AFTER CoC generation."""
+    B = gt_actions.shape[0]
+
+    # Sample t ~ U[0,1], noise
+    t = torch.rand(B, device=device, dtype=dtype)
+    noise = torch.randn_like(gt_actions)
+    t_bc = t[:, None, None]
+    x_t = (1 - t_bc) * noise + t_bc * gt_actions
+    target = gt_actions - noise
+
+    # Find <traj_future_start> position for each sequence
+    traj_future_start_mask = generated_sequences == eos_token_id
+    has_traj_future_start = traj_future_start_mask.any(dim=1)
+    traj_future_start_positions = traj_future_start_mask.int().argmax(dim=1)
+    last_token_positions = torch.full((B,), generated_sequences.shape[1] - 1, device=device)
+    valid_token_pos_id = torch.where(has_traj_future_start, traj_future_start_positions, last_token_positions)
+    offset = valid_token_pos_id + 1
+
+    # Build position_ids with rope_deltas
+    prefill_seq_len = prompt_cache.get_seq_length()
+    position_ids = torch.arange(n_diffusion_tokens, device=device)
+    position_ids = position_ids[None, None, :].expand(3, B, -1).clone()
+    delta = rope_deltas + offset[:, None]
+    position_ids = position_ids + delta.to(position_ids.device)
+
+    # Build attention_mask to mask padding tokens
+    attention_mask = torch.zeros(
+        (B, 1, n_diffusion_tokens, prefill_seq_len + n_diffusion_tokens),
+        dtype=dtype, device=device,
+    )
+    for i in range(B):
+        attention_mask[i, :, :, offset[i]:-n_diffusion_tokens] = torch.finfo(dtype).min
+
+    forward_kwargs = {}
+    if model.config.expert_non_causal_attention:
+        forward_kwargs["is_causal"] = False
+
+    future_token_embeds = model.action_in_proj(x_t, t_bc)
+    if future_token_embeds.dim() == 2:
+        future_token_embeds = future_token_embeds.view(B, n_diffusion_tokens, -1)
+
+    expert_out = model.expert(
+        inputs_embeds=future_token_embeds,
+        position_ids=position_ids,
+        past_key_values=prompt_cache,
+        attention_mask=attention_mask,
+        use_cache=True,
+        **forward_kwargs,
+    )
+    prompt_cache.crop(prefill_seq_len)
+
+    last_hidden = expert_out.last_hidden_state[:, -n_diffusion_tokens:]
+    pred = model.action_out_proj(last_hidden).view(B, *model.action_space.get_action_space_dims())
+
+    return torch.nn.functional.mse_loss(pred, target)
+
+
+def _save_light_expert(model: AlpamayoR1, path: Path):
+    """Save only the lightweight expert modules (not the full 10B VLM)."""
+    path.mkdir(parents=True, exist_ok=True)
+    torch.save(
+        {
+            "expert": model.expert.state_dict(),
+            "action_in_proj": model.action_in_proj.state_dict(),
+            "action_out_proj": model.action_out_proj.state_dict(),
+        },
+        path / "light_expert.pt",
+    )
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Train lightweight expert for Alpamayo-R1 (post-CoC)")
+    parser.add_argument("--base-model-dir", type=str, default="/path/to/models/Alpamayo-R1-10B")
+    parser.add_argument("--output-dir", type=str, default="./light_expert_checkpoints")
+    parser.add_argument("--clip-index", type=str,
+                        default="/path/to/data/PhysicalAI-Autonomous-Vehicles/clip_index.parquet")
+    parser.add_argument("--chunk-start", type=int, default=0)
+    parser.add_argument("--chunk-end", type=int, default=10)
+    parser.add_argument("--batch-size", type=int, default=8)
+    parser.add_argument("--num-workers", type=int, default=2)
+    parser.add_argument("--lr", type=float, default=1e-4)
+    parser.add_argument("--weight-decay", type=float, default=0.01)
+    parser.add_argument("--max-steps", type=int, default=10000)
+    parser.add_argument("--max-coc-tokens", type=int, default=256, help="Max tokens for CoC generation")
+    parser.add_argument("--log-every", type=int, default=10)
+    parser.add_argument("--save-every", type=int, default=1000)
+    parser.add_argument("--device", type=str, default="cuda")
+    train(parser.parse_args())
+
+
+if __name__ == "__main__":
+    main()

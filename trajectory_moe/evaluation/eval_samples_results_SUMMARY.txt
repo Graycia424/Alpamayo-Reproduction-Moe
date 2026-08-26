@@ -1,0 +1,24 @@
+📊 EVAL_SAMPLES_RESULTS.CSV - 基线Decoder评估统计摘要
+
+文件路径：trajectory_moe/evaluation/eval_samples_results.csv
+生成时间：2026-04-23
+
+📌 数据集信息
+  • 描述：基线（单个28层Decoder）验证集评估
+  • 样本数：2,805 个
+  • 数据形式：chunk, clip_id, t0_us, min_ade, coc (Chain of Thought)
+
+📈 性能指标 (Min ADE)
+  • 平均值：0.865216 m ✓ （参考基准）
+  • 中位数：0.577160 m
+  • 最小值：0.000960 m
+  • 最大值：10.532852 m
+  • 标准差：1.003071 m
+
+💡 用途
+  用作MoE系统的性能基准，评估MoE相对于单个Decoder的改进或降低。
+  
+🔗 相关文件
+  • eval_moe_results.csv        - MoE完整系统评估
+  • eval_light_expert_results.csv - 轻量专家评估
+  • eval_decoder_expert_results.csv - 大型专家评估

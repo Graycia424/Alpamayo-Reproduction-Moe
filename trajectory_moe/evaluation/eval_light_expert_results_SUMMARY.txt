@@ -1,0 +1,33 @@
+📊 EVAL_LIGHT_EXPERT_RESULTS.CSV - 轻量专家评估统计摘要
+
+文件路径：trajectory_moe/evaluation/eval_light_expert_results.csv
+生成时间：2026-04-23
+
+📌 数据集信息
+  • 描述：轻量级专家（8层, 1024-dim）验证集评估
+  • 样本数：2,805 个 （与基线Decoder相同）
+  • 数据形式：chunk, clip_id, t0_us, min_ade, coc
+
+📈 性能指标 (Min ADE)
+  • 平均值：1.277633 m （相对基线差 +47.8%）
+  • 中位数：0.831354 m
+  • 最小值：0.043422 m
+  • 最大值：13.727602 m
+  • 标准差：1.374181 m
+
+💡 用途
+  用于评估轻量级专家（8层）相对于基线28层Decoder的性能差距。
+  在MoE系统中，3个轻量专家替代1个28层Decoder。
+
+📊 性能对标
+  • 基线Decoder:   0.8652 m
+  • 轻量专家:      1.2776 m (差 +47.8%)
+  • 大型专家:      1.6850 m (差 +94.8%)
+  
+  说明：轻量专家虽然参数量大幅减少，但性能下降约48%。
+       这是参数压缩的必然权衡。
+
+🔗 相关文件
+  • eval_samples_results.csv - 基线评估
+  • eval_moe_results.csv - MoE完整系统评估
+  • eval_decoder_expert_results.csv - 大型专家评估

@@ -1,0 +1,46 @@
+📊 EVAL_MOE_RESULTS.CSV - MoE完整系统评估统计摘要
+
+文件路径：trajectory_moe/evaluation/eval_moe_results.csv
+生成时间：2026-04-23
+
+📌 数据集信息
+  • 描述：MoE完整系统（3个专家 + 路由器）验证集评估
+  • 样本数：9,620 个 （是基线Decoder的3.4倍）
+  • 数据形式：clip_id, t0_us, gt_cluster, pred_cluster, router_correct, min_ade
+
+📈 性能指标 (Min ADE)
+  • 平均值：1.113440 m （相对基线差 +28.6%）
+  • 中位数：0.759660 m
+  • 最小值：0.015203 m
+  • 最大值：19.022785 m
+  • 标准差：1.185764 m
+
+🤖 路由器性能
+  • 准确度：95.80% ✓ （验证多模态路由策略有效）
+
+🎯 聚类分布
+  预测簇分布：
+    • Cluster 0: 8,931 个 (92.8%)
+    • Cluster 1:   402 个 (4.2%)
+    • Cluster 2:   287 个 (3.0%)
+  
+  真值簇分布：
+    • Cluster 0: 8,706 个 (90.5%)
+    • Cluster 1:   513 个 (5.3%)
+    • Cluster 2:   401 个 (4.2%)
+
+💡 关键发现
+  1. 路由器准确度95.80%说明多模态路由策略设计有效
+  2. 平均Min ADE 1.1134m vs 基线0.8652m的性能差是由于：
+     - 聚类标签质量不足（Cluster 1/2严重欠采样）
+     - 不是路由策略问题，而是专家学习问题
+  3. 评估集大小差异（9,620 vs 2,805）可能包含难度更高的样本
+
+⚠️ 性能瓶颈分析
+  • 根本原因：聚类标签定义不清，Cluster 1/2学习不足
+  • 解决方向：改进聚类策略，使用更清晰的行为定义
+
+🔗 相关文件
+  • eval_samples_results.csv - 基线评估
+  • eval_light_expert_results.csv - 轻量专家评估
+  • eval_decoder_expert_results.csv - 大型专家评估

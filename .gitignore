@@ -1,0 +1,40 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+.envs/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Run logs ----
+*.log
+cemare_moe/log/*.log
+
+# ---- Dataset files (re-downloadable, see README "Data Setup") ----
+# Index and calibration shards from the NVIDIA PhysicalAI dataset.
+# Fetch them with ./hfd.sh instead of committing them here.
+parquet/
+notebooks/clip_ids.parquet
+*.mp4
+
+# ---- Model checkpoints / training output ----
+*.pt
+*.pth
+*.safetensors
+checkpoints/
+*_checkpoints/
+moe_checkpoints/
+
+# ---- Editor / OS ----
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,1001 @@
+clip_id,final_x_offset,final_y_offset,scenario
+fb39af1b-24ac-4917-8d9d-6b26d0ae657f,55.412,6.796,Turn Left / Lane Change Left
+1659e3df-0c24-4d19-8210-5e65e335bae4,109.516,0.037,Keep Lane / Straight
+4898e56c-4fdf-4840-a50f-fe060456054c,82.715,2.635,Turn Left / Lane Change Left
+64657277-871f-41a2-b508-a60a702cf15c,16.314,3.005,Turn Left / Lane Change Left
+0843013c-c8a8-439d-afca-b637b2280369,75.446,-23.783,Turn Right / Lane Change Right
+2532fb2e-5068-44f6-9f64-2256d852d51d,26.056,0.061,Keep Lane / Straight
+69d2f891-54fb-4673-b9b8-cfbe3bac78b2,49.639,7.265,Turn Left / Lane Change Left
+b81e25a6-e709-4b81-b956-65da93278c8d,54.412,-7.445,Turn Right / Lane Change Right
+ea7bde4a-11f4-4732-97d5-a6f1d1272fa1,40.711,20.331,Turn Left / Lane Change Left
+faf67105-5077-43a7-83d0-49ca0252b51a,13.429,14.236,Turn Left / Lane Change Left
+39da1b9f-0e30-4378-a02d-b2f780e5a8f6,65.982,0.881,Keep Lane / Straight
+afa415ae-4a7a-4f1e-9572-8764a5ecb70d,18.698,-0.514,Keep Lane / Straight
+f58203ed-047c-4d48-9c77-61266790e5bf,101.333,-0.127,Keep Lane / Straight
+69bf276b-21cc-484c-947e-74bc45f967ef,58.237,0.628,Keep Lane / Straight
+5fee3fc7-f53a-43b3-b548-261517ae9101,39.736,-0.610,Keep Lane / Straight
+851dcbcd-8052-4f51-b485-48c1329f1bb9,63.805,11.731,Turn Left / Lane Change Left
+5dc62a57-3e45-4356-9330-818e90b72575,-0.000,-0.000,Keep Lane / Straight
+0f296183-ffa9-4331-9b7d-b9d45d6a14ec,45.259,-0.115,Keep Lane / Straight
+1a2898ce-dfa9-4a41-aea6-a6a5e4695b97,34.786,-1.086,Keep Lane / Straight
+5b147651-bba4-4681-873b-2339f23e81db,91.613,7.240,Turn Left / Lane Change Left
+75fd9fbc-a1cd-4019-b356-c12fd11010db,42.509,35.689,Turn Left / Lane Change Left
+96bd13d8-3756-465d-8ee1-9e30f763bdce,92.523,3.235,Turn Left / Lane Change Left
+9c99b841-7bf4-48cc-b8c4-deef6ab71c8a,0.000,0.000,Keep Lane / Straight
+3f175574-9279-49f7-b510-d4515c821aeb,39.665,15.321,Turn Left / Lane Change Left
+4d6a0f05-c208-4479-bf99-3f233e569782,108.684,33.688,Turn Left / Lane Change Left
+707c04f3-b504-4762-97d8-3b8081a6128a,101.290,-6.026,Turn Right / Lane Change Right
+5bc26c28-30f3-49e6-b190-aced3e67e00e,23.842,-0.005,Keep Lane / Straight
+d3c54942-9af0-49c3-a125-81960d6a16f8,71.337,7.969,Turn Left / Lane Change Left
+76132400-26af-479a-a6c8-0f247a14037c,35.371,0.090,Keep Lane / Straight
+25c0eb85-28c3-43f7-a848-2ca403808b75,76.122,-15.366,Turn Right / Lane Change Right
+83a62405-ca1b-4adf-bbeb-9310e9168449,59.115,0.030,Keep Lane / Straight
+0e1656dc-086f-4d45-9474-3eb5b6377c59,47.580,-0.229,Keep Lane / Straight
+3b1bcc11-f051-4ab4-9334-90723e21b591,18.631,34.952,Turn Left / Lane Change Left
+3ada3b7e-6b72-4a8b-a863-22e9073585d0,102.992,-25.440,Turn Right / Lane Change Right
+15bdf89c-f5db-4af0-9227-0c259a518dba,181.607,-6.902,Turn Right / Lane Change Right
+1bc03134-c047-44ce-b7f3-a52aa26708ef,91.460,0.327,Keep Lane / Straight
+0109a518-69a0-4355-afde-5e617e06415e,16.133,0.630,Keep Lane / Straight
+3d10169c-fb37-44ed-8e3e-1891915b9786,12.874,0.121,Keep Lane / Straight
+4c8fe364-4ad1-4e32-b94a-f3478502cab4,43.568,-0.158,Keep Lane / Straight
+6659ad6d-3ecf-463c-8a8d-defa10733457,106.184,-0.406,Keep Lane / Straight
+1ea521d2-c0ad-40b0-acf3-49042d155d30,39.396,2.784,Turn Left / Lane Change Left
+1bad1980-82f3-4683-8e77-1dfffc32c4bd,74.787,0.343,Keep Lane / Straight
+5c2c3c28-f7e9-4ddc-8a4d-22ef4aa8f859,102.951,-0.929,Keep Lane / Straight
+693d8ed9-faeb-4775-a061-80a89d79459b,41.470,0.694,Keep Lane / Straight
+f9ba062e-ada7-4269-9087-c6924a4ce781,6.706,0.008,Keep Lane / Straight
+aa56971d-ac5e-4d66-9b99-f3f14ac98894,93.918,-0.128,Keep Lane / Straight
+32aef0ab-2d7b-4152-aa99-809e12a82c2c,77.183,1.200,Keep Lane / Straight
+0dd37167-758d-4f4e-9637-9b608711e17d,31.174,0.337,Keep Lane / Straight
+0a68b99a-efdd-4433-aa58-ec1fa8d50908,82.832,-20.781,Turn Right / Lane Change Right
+b96ad315-6cfd-4a42-ba2e-e7028f5f5b9c,70.909,5.513,Turn Left / Lane Change Left
+2f15a704-91ec-4355-8a25-e4518e0debfa,73.389,-0.376,Keep Lane / Straight
+64a50114-f702-4f87-a010-0b4052ff86ab,18.124,-40.004,Turn Right / Lane Change Right
+115b56f9-0134-43df-913a-ee0cfc1b7032,68.299,-1.875,Keep Lane / Straight
+ed4763d7-dce0-440d-9a66-ad218e3867e3,5.863,0.006,Keep Lane / Straight
+0b5b8ddd-6f27-43f2-b1d0-5b44acc695f3,21.383,-0.050,Keep Lane / Straight
+1c1e51e0-0805-4afa-950c-01f34d6d0fb2,87.277,9.552,Turn Left / Lane Change Left
+adcdbe56-b948-4077-8e55-10a549675494,104.467,2.079,Keep Lane / Straight
+af9b3d5b-232a-4e6e-bd5d-f8451f1b7e13,67.442,-0.466,Keep Lane / Straight
+4187f01a-5d63-4a38-97b2-6b7e3f3cf943,90.667,-0.926,Keep Lane / Straight
+6c754d15-b146-4b72-90cc-23d7d0b3688d,96.496,40.664,Turn Left / Lane Change Left
+0302ca61-697d-48e7-9202-f300bb151cde,56.678,0.220,Keep Lane / Straight
+79fd94b2-100a-45bd-8b6f-786e50e12a47,0.883,-0.001,Keep Lane / Straight
+6c26eb61-67c9-472d-96f6-b3c77fa995d5,19.939,0.047,Keep Lane / Straight
+9e363f53-9bb8-46de-b28f-6a786affd489,67.822,-0.481,Keep Lane / Straight
+b03ff6e9-8cb1-4ed8-9b4f-ccc85d93d1c9,120.811,-3.713,Turn Right / Lane Change Right
+69d63d61-f93f-41a0-81cf-53c53bb914c1,81.049,0.081,Keep Lane / Straight
+155bcd86-bc66-48ce-95ac-b6d38f7a3b2a,71.224,-2.049,Keep Lane / Straight
+6fbf8990-3b7b-471a-b1eb-b1134a9cd14d,30.070,6.364,Turn Left / Lane Change Left
+a9b34f5d-52ee-415d-8141-ee79643e8860,85.333,-1.048,Keep Lane / Straight
+f629d53b-4289-4c4a-a5e5-81eb282efb33,94.090,-2.881,Turn Right / Lane Change Right
+3a14788f-aa2f-453f-afef-ef6cb3c529ac,19.549,-30.406,Turn Right / Lane Change Right
+98403541-f0a6-485f-aabf-a7bb5ec13fa0,82.469,-0.067,Keep Lane / Straight
+a8fcdd95-06f7-4d2b-b241-042a9d88aede,100.294,-7.908,Turn Right / Lane Change Right
+21c7045f-4547-42ba-bd3c-ed2370a0206e,0.118,0.000,Keep Lane / Straight
+f182d973-be7c-49ea-8e37-c19695428a48,120.376,-4.103,Turn Right / Lane Change Right
+53d4d010-aa49-447b-a751-a9342cbfbc56,70.755,0.167,Keep Lane / Straight
+84ea26fc-59b5-4a08-8157-f3fb8af1236b,29.749,46.507,Turn Left / Lane Change Left
+2ef51533-bc78-4f34-9be7-6dbf8dc03896,73.430,-4.532,Turn Right / Lane Change Right
+db4bbc52-252c-4767-80ec-31480b6ab2d2,164.049,-1.649,Keep Lane / Straight
+f5b81dd0-91b0-44d6-a00c-354be8300252,77.244,-0.123,Keep Lane / Straight
+e5874477-deef-4360-b030-42a1cb37e110,83.497,0.044,Keep Lane / Straight
+1f1758cc-0f3d-4458-9629-41aab34df4ba,7.872,-2.708,Turn Right / Lane Change Right
+0a23deb1-f525-422a-abb3-cc622bb8b82e,38.333,-0.298,Keep Lane / Straight
+5ad96ba5-5ed6-4c20-981d-e8551c4301f4,114.588,17.993,Turn Left / Lane Change Left
+39945df2-c07d-4e17-b353-ff256bb74f53,48.138,16.172,Turn Left / Lane Change Left
+117d3e21-a203-4198-84ed-e40c96741629,60.923,27.941,Turn Left / Lane Change Left
+25bc11b5-b599-4a83-abc7-3914741997c1,56.786,-33.383,Turn Right / Lane Change Right
+103488c3-47a6-4f3e-b8e2-a200fbbd3d2b,65.473,-2.360,Keep Lane / Straight
+59609856-668f-4bb9-9ce3-a0a257a26954,72.405,17.719,Turn Left / Lane Change Left
+9c833fea-3b9c-4135-b13d-578b665c61b0,130.569,-0.748,Keep Lane / Straight
+5b865fb7-d609-4a98-91a5-ebb00aa3ee00,16.821,34.332,Turn Left / Lane Change Left
+0e217742-f3fb-4c26-8f30-09b1362515d0,69.297,22.991,Turn Left / Lane Change Left
+a25049d9-acb6-4aad-bfaf-109822d04f4b,2.245,-0.004,Keep Lane / Straight
+f86e6ee2-1194-40fe-b1db-5e2c1f739403,8.886,0.014,Keep Lane / Straight
+47a4e30b-85db-43cf-b3f7-7f95bf0d47fc,18.077,0.912,Keep Lane / Straight
+da28084a-9224-4cae-8f99-a518b984fcdd,3.198,-0.508,Keep Lane / Straight
+2db833a9-dd8a-4e70-a1ae-e4adb24f9ac9,6.250,0.000,Keep Lane / Straight
+53e707bb-f62d-46ec-a5d3-1923a44d5590,47.395,3.016,Turn Left / Lane Change Left
+7a8d95e6-737e-40f1-9748-3f119fbb6873,12.605,-21.515,Turn Right / Lane Change Right
+44c9a023-613e-4a6a-84cb-a881fdcd845e,81.340,0.121,Keep Lane / Straight
+4797bf7e-10fa-4330-8287-04d3d7d3c040,9.740,-10.671,Turn Right / Lane Change Right
+441c5635-0546-4361-bba3-6facda6081af,61.725,-3.565,Turn Right / Lane Change Right
+901bd9b3-7c1e-4710-9336-15bd6bfe2b9a,24.489,-4.634,Turn Right / Lane Change Right
+13b90b90-37c4-4334-a755-8de00cd905d2,1.028,-0.005,Keep Lane / Straight
+beaa0395-8366-4d02-bbad-71de854ac271,36.797,-0.173,Keep Lane / Straight
+39c5bd3e-57d7-4d76-b823-b4a8f047bef8,93.153,-22.073,Turn Right / Lane Change Right
+87811ba9-bd44-4dae-83a0-b1ec166e15ae,16.539,0.162,Keep Lane / Straight
+17233208-b296-4bd7-b779-b0152f40a5a7,42.833,17.037,Turn Left / Lane Change Left
+2406c17b-421d-4912-a308-4811194d4e47,33.821,-20.529,Turn Right / Lane Change Right
+9fc15f8c-5974-4a8f-a0d1-b64539474ed7,33.731,35.882,Turn Left / Lane Change Left
+33509f94-5f7a-456c-a40d-a7612b26b5cc,25.522,28.477,Turn Left / Lane Change Left
+76457f13-8cde-4d41-b2da-def43a7aa8e6,47.965,6.456,Turn Left / Lane Change Left
+256cd9b0-573b-4025-8223-0e151ab7d0dd,4.743,-0.009,Keep Lane / Straight
+e5b35810-ab25-449a-a9c6-281fc0bea33c,49.722,49.647,Turn Left / Lane Change Left
+6a8314aa-2d7a-4b15-82eb-ef0cb82aafb5,58.541,1.043,Keep Lane / Straight
+02503c41-0179-4bdc-ba22-496c39dac0c6,91.819,16.714,Turn Left / Lane Change Left
+a1dc5db9-ce7f-4a1a-bcce-7ea1f48214c8,17.285,0.044,Keep Lane / Straight
+68c7c3e4-2d76-4ccc-b71b-cdf50a6604bb,8.898,-0.543,Keep Lane / Straight
+6bce6ca2-2620-42e1-b2e2-a0ce166d9f47,12.821,-0.050,Keep Lane / Straight
+0c060b6e-3398-46ae-83ec-71180cce812c,31.694,0.320,Keep Lane / Straight
+719637fa-ee87-468c-829e-1b4ca67f3c38,56.926,-0.480,Keep Lane / Straight
+81267367-f4c4-413e-9b4c-d05b7e1d7133,81.074,41.917,Turn Left / Lane Change Left
+9ba39318-a0af-4e0e-a9a5-5d67ca90eca5,158.743,-1.203,Keep Lane / Straight
+1a4d0380-2108-4d87-84ba-6c0d6f165de1,24.408,-20.701,Turn Right / Lane Change Right
+1acf32f1-60bb-4bc9-9cf8-c971c9314a4d,21.260,1.805,Keep Lane / Straight
+0030d369-eaa5-485d-b42c-91dad56ff97c,50.003,17.368,Turn Left / Lane Change Left
+ba4de9d1-7440-4f44-bb62-6dffc5d5cd20,47.905,-47.525,Turn Right / Lane Change Right
+a3809371-7d30-4b5e-b31f-08ed098bcf22,109.360,0.527,Keep Lane / Straight
+8b58d008-ad95-4992-9697-790551011c62,23.847,0.104,Keep Lane / Straight
+36dcad6f-63f7-4c68-bee4-7c52ad0c5400,39.647,-36.819,Turn Right / Lane Change Right
+8962e989-a8ac-4333-842d-9fb5e2d1711d,0.135,0.000,Keep Lane / Straight
+367b8b13-4400-4cfe-9462-ea9686c53c15,68.650,15.242,Turn Left / Lane Change Left
+acab9d6b-b7a6-4f02-9fcd-7496e707b7ba,18.232,-33.873,Turn Right / Lane Change Right
+f1aa1e19-8fb6-44f3-a445-e8dae109ce37,28.690,-26.508,Turn Right / Lane Change Right
+a1d6ed12-bfe9-4309-bffc-86714ae9babf,82.518,0.058,Keep Lane / Straight
+dad0d8e2-26b8-4b95-96c2-90eea2707842,59.078,-0.149,Keep Lane / Straight
+48ade625-65c7-46bf-9855-0902817014f1,17.451,0.285,Keep Lane / Straight
+f53cae64-e8cb-4215-8d9f-c34cee5876ac,38.853,2.367,Keep Lane / Straight
+db3ebbbd-04b7-4a83-8ec8-46137e2e52b7,57.352,0.288,Keep Lane / Straight
+2338701d-6b52-4a61-997f-c9e496482135,69.639,1.259,Keep Lane / Straight
+8c50a325-ac9c-4426-9a2f-7d1cafbb5194,18.629,-0.094,Keep Lane / Straight
+76e1ac85-1f22-4a44-9b84-c71c52f6f11e,77.982,0.828,Keep Lane / Straight
+6c70af9e-3924-4c07-9ffb-6fb4fbced52e,51.068,1.403,Keep Lane / Straight
+773632d5-e215-4d15-9880-b6ca5c2a28da,38.304,12.198,Turn Left / Lane Change Left
+4203c4e4-ffb4-4898-87ef-c5b42420d0ca,71.645,0.079,Keep Lane / Straight
+a7d465de-fbc9-4b79-bf45-b92e5ba047b0,0.000,0.000,Keep Lane / Straight
+de98e483-fe6d-4e4f-a521-cc4d04bb80b7,104.105,0.845,Keep Lane / Straight
+b40e11d8-d6d3-4928-b4df-56a8e6e3af04,41.451,1.111,Keep Lane / Straight
+25f25943-af64-41fc-be75-f1ef586942ba,62.030,2.282,Keep Lane / Straight
+8ddb7115-1876-4aaa-9203-ed54324abea6,58.285,1.523,Keep Lane / Straight
+b5a852a2-e29f-4e91-a2c3-ca4f21f37817,11.986,-0.328,Keep Lane / Straight
+dca2a944-e65c-4b7f-8637-74602a73e2bb,8.175,-0.030,Keep Lane / Straight
+93793b24-18d2-4547-91e1-0f5890593f61,23.176,0.215,Keep Lane / Straight
+8430b5a4-322d-47de-b4b0-686da7dfe026,60.640,5.283,Turn Left / Lane Change Left
+69b0ac1d-406b-40da-ac36-b0abc52e7c7b,2.993,0.005,Keep Lane / Straight
+3a12f31e-1a51-42ab-bfee-e230a8170078,77.935,-0.897,Keep Lane / Straight
+d24b1639-6b5a-4ff2-9745-47eb5b367811,72.100,1.679,Keep Lane / Straight
+be5d489b-6632-4b16-ac5b-f9fa10966dca,56.598,-22.698,Turn Right / Lane Change Right
+4c6870e1-fa13-4747-8d4f-91ff1cfeae19,48.942,2.827,Turn Left / Lane Change Left
+a3ec77a4-3e10-478c-9e1b-6393287cb057,20.074,18.145,Turn Left / Lane Change Left
+017cfe6e-c4c3-4df6-bd27-5700ebd2d6e3,24.063,0.950,Keep Lane / Straight
+3c94f5ce-f5b1-4236-a503-6d1d58ac6f13,67.554,0.595,Keep Lane / Straight
+b8f9238c-1884-4889-ac0e-e5fb2d718faf,69.242,-0.811,Keep Lane / Straight
+4268341e-31ed-4e8a-b2e1-5db2692871be,24.621,-0.321,Keep Lane / Straight
+b650f32a-2490-4aea-b99f-b9e7f44e1cf0,37.623,0.605,Keep Lane / Straight
+1532a1ee-2816-49ee-95a0-190857d75752,53.478,-2.701,Turn Right / Lane Change Right
+90d851c7-b7d4-4f6f-bb88-0637ec423aef,33.497,-0.925,Keep Lane / Straight
+2c629ca3-e0e2-4fd9-b73d-56d8fe6fbc70,18.936,0.010,Keep Lane / Straight
+0810649d-f08a-4b3b-8e1b-c6c6eaef592e,28.392,6.512,Turn Left / Lane Change Left
+76b2e219-3360-4e01-9ad3-75c85bfbaa7e,69.122,1.006,Keep Lane / Straight
+a28a03c0-927f-4ecd-92f0-959b5f606b88,59.172,27.869,Turn Left / Lane Change Left
+8362a239-e201-4b38-bd61-b6bba2193976,4.682,-0.022,Keep Lane / Straight
+ba4ce69e-8a13-4316-91b2-bbb49eb132af,58.399,3.946,Turn Left / Lane Change Left
+7a83cd86-528e-43f7-8624-60765916fbe9,50.903,1.798,Keep Lane / Straight
+5752b5d3-55ac-4045-a5b9-40b082e560d9,29.464,-0.179,Keep Lane / Straight
+b137cb60-2a68-4569-aa19-0552e86810c9,91.489,-0.120,Keep Lane / Straight
+4c2d9b7f-bc5c-4a7a-9982-19deb7754b1a,60.680,-16.068,Turn Right / Lane Change Right
+2886f3db-0f25-478d-a30c-b9a5e9524485,3.326,-0.040,Keep Lane / Straight
+353d9f55-1e5a-4cae-9af8-38fd7e74028e,96.311,-1.463,Keep Lane / Straight
+08199ee0-bc1f-4fd4-aa60-757099f9e36a,58.425,-0.086,Keep Lane / Straight
+d533eba6-efb5-40e3-8af4-26dae53eb547,3.502,12.494,Turn Left / Lane Change Left
+0aa1fefd-b242-41b2-97f8-4b3f5de94f0c,91.253,-16.764,Turn Right / Lane Change Right
+6ac27e12-6237-4938-94cc-ce4b1c587c37,63.838,-7.335,Turn Right / Lane Change Right
+b6cb2e57-39ba-491e-9c9f-ffcfba1e5144,79.696,7.067,Turn Left / Lane Change Left
+72c10fcc-d97c-4a5b-9a6b-c8939b1a658b,67.723,0.975,Keep Lane / Straight
+881fd602-5866-471e-9b07-37f424939aa0,64.250,2.067,Keep Lane / Straight
+3b997a5e-bc49-4aa6-bf4d-b0fb5673b2f4,50.033,1.020,Keep Lane / Straight
+a4bd734c-0961-4bc6-8fc8-1be12fe49ab6,42.785,-0.130,Keep Lane / Straight
+a1e769e3-17d4-4d99-9af1-70ece4ee83f1,72.668,14.473,Turn Left / Lane Change Left
+15a6d152-3001-4c7d-bde2-45537acb1340,56.337,-20.411,Turn Right / Lane Change Right
+b759bec3-282e-42b5-8aad-66522b33c11d,47.273,-1.198,Keep Lane / Straight
+39a86659-4551-4975-af90-592cf2a72fa7,21.957,-38.988,Turn Right / Lane Change Right
+b3a05a8b-035c-4f6f-b9d4-2505de76f665,142.023,-0.941,Keep Lane / Straight
+12f085c7-58d1-41ce-bd93-12a165c8f784,48.643,-0.475,Keep Lane / Straight
+5a321b88-3600-43ae-9cb5-61d5366081b9,24.410,-26.270,Turn Right / Lane Change Right
+7a28def7-7162-4072-bf69-b87df7741d25,36.762,2.508,Turn Left / Lane Change Left
+fee74e5f-f5e5-4545-931c-316bd9940dbe,4.365,0.002,Keep Lane / Straight
+4eb8cfd8-0173-4139-beb8-fd11b5d199a2,-12.842,33.031,Turn Left / Lane Change Left
+63b0df66-67e7-45d4-a01c-02759670e0c8,20.945,39.632,Turn Left / Lane Change Left
+4653bd68-43fe-4033-a913-50594a3d105b,16.552,-28.984,Turn Right / Lane Change Right
+1dc8fcb1-fb86-4bfb-9ab9-15ca1f8993bf,130.919,-2.799,Turn Right / Lane Change Right
+9402b327-9a8d-4df0-af3f-157b2975d605,22.845,-3.239,Turn Right / Lane Change Right
+73e0ad6a-87b2-4edc-bb83-3a1ce852f8a6,19.474,1.089,Keep Lane / Straight
+65ab71f8-d60b-4ece-bfdf-8a63c429e770,29.562,1.762,Keep Lane / Straight
+1aa9200b-6453-416a-8bc7-e476497e1a7d,19.024,0.585,Keep Lane / Straight
+e3bfa3c4-a399-4d34-b210-02aafa4508c0,74.350,-0.574,Keep Lane / Straight
+8598b8a2-57e2-4d4c-be05-1cb8297c4f37,17.745,0.672,Keep Lane / Straight
+02bb2ca6-9c76-4b20-8c83-aee77836cced,17.601,-7.854,Turn Right / Lane Change Right
+324edddc-45f7-4319-abf2-ad83a42b0071,20.785,51.011,Turn Left / Lane Change Left
+1ea2f29e-e4c8-455d-85ed-703cb7cdd0cc,19.108,-0.014,Keep Lane / Straight
+671ed96a-7a5b-448a-bdac-10620bd2bfb9,32.493,-1.169,Keep Lane / Straight
+3dac5abe-a491-4616-b926-001abfa623a5,78.232,-40.986,Turn Right / Lane Change Right
+ea3a17d8-26ae-456a-9e4d-40b9e84bcaf0,75.595,0.627,Keep Lane / Straight
+4165b24b-2772-41c9-b374-c87a9476ce35,81.602,16.294,Turn Left / Lane Change Left
+e010d318-0676-4a0c-9175-78efea006ddf,12.084,-0.132,Keep Lane / Straight
+9759b564-ec2c-425d-8533-bfe2b9d4bc9b,86.748,25.514,Turn Left / Lane Change Left
+d0af2d91-9545-408f-b15a-20932adc0f36,48.290,4.815,Turn Left / Lane Change Left
+e164db3f-8612-48cb-b7ab-2b67e0666555,116.388,-4.361,Turn Right / Lane Change Right
+a307bdac-c080-419a-87fa-7fa4cf1bca19,154.684,-24.229,Turn Right / Lane Change Right
+0abcbe23-f8e2-47ee-9a6b-b53b5da64b69,114.561,-3.603,Turn Right / Lane Change Right
+fe4de047-6871-476e-b2cf-65921ff4dca2,61.673,2.962,Turn Left / Lane Change Left
+7a6bcc24-7fc0-4f7c-bf0d-50085f688cfd,47.294,0.140,Keep Lane / Straight
+5e95fec8-b4e8-4bb6-8241-ba39445296d9,70.068,-51.617,Turn Right / Lane Change Right
+22d99c05-2fa8-4aca-b22a-62d77835c034,171.225,-15.470,Turn Right / Lane Change Right
+cfd747b8-62cb-4b41-ab66-5deda341bf26,104.526,8.813,Turn Left / Lane Change Left
+8883a323-f896-4d2b-bb48-06741b695e20,105.236,-3.115,Turn Right / Lane Change Right
+74858cde-3482-4184-99e8-5f504d6384fe,95.394,-2.125,Keep Lane / Straight
+01e98791-f64c-4516-ba29-1679a1877f34,-8.082,-35.157,Turn Right / Lane Change Right
+a8340a95-e60a-46d2-b912-da24188d3efc,69.301,0.626,Keep Lane / Straight
+e4be9109-4214-4018-a86f-390dcdbe29d0,66.184,-0.247,Keep Lane / Straight
+d55e0dd0-7bff-44b4-8fd5-77775f5dcb73,75.234,4.912,Turn Left / Lane Change Left
+4918e0ad-e7ab-421e-bae7-61bfb7543f34,90.930,-0.437,Keep Lane / Straight
+dcdd8587-aae5-4380-a2a5-890b84b40787,33.017,0.070,Keep Lane / Straight
+5a6c6509-73a1-43cc-97c9-d3ab8d6d6252,76.365,0.391,Keep Lane / Straight
+384d5f70-d509-45c3-bf7d-c60c94d689f5,15.476,-33.372,Turn Right / Lane Change Right
+ff663291-1796-4426-b1d0-3df87c43a575,41.935,-0.010,Keep Lane / Straight
+f4f82af0-459c-45fb-b2f3-6e4bae6c8459,25.825,-0.072,Keep Lane / Straight
+791a752b-a10a-4828-9e70-190e09648fd2,37.865,-0.104,Keep Lane / Straight
+a2391c74-f0ca-4d6e-a179-395c322b0578,0.000,0.000,Keep Lane / Straight
+96425b1d-bfdd-4b4f-ae95-2be804b86152,28.378,-42.709,Turn Right / Lane Change Right
+8a308042-f3b3-434f-83b4-3271bb0c552a,41.939,-7.856,Turn Right / Lane Change Right
+e6575151-52d3-4067-b706-f55f305e6952,34.951,-9.778,Turn Right / Lane Change Right
+be66fd37-d9ec-4a02-be2b-23c46a35d21b,4.081,-0.011,Keep Lane / Straight
+0da00f1b-64e1-45e3-8cdd-a55c1067de93,43.865,-6.019,Turn Right / Lane Change Right
+692a9bf8-80b2-40b0-a8a9-1f44e3ecdc78,101.813,-0.392,Keep Lane / Straight
+a1b7a757-d476-466d-b413-0aa520fb667b,32.059,0.300,Keep Lane / Straight
+d5b6fdac-2a70-45a6-9a4c-b491467d1a9f,55.185,-31.727,Turn Right / Lane Change Right
+bab9fedf-5a32-4301-8574-bb66617c793f,30.808,10.284,Turn Left / Lane Change Left
+3655b0a0-39ec-4b04-b81f-fdc4a901d293,63.325,19.838,Turn Left / Lane Change Left
+34074c5a-ae01-4a70-b586-c909a5a05983,36.249,5.661,Turn Left / Lane Change Left
+f90c82ad-df03-4e12-9e76-f9d83f06d581,88.776,4.997,Turn Left / Lane Change Left
+2696bb1c-bfef-4318-9d02-cffa41d3120a,82.172,-1.989,Keep Lane / Straight
+9dad2d41-e027-4ac7-a5b9-2cebfac55539,95.472,-22.326,Turn Right / Lane Change Right
+ac1c19f0-8a16-4370-9d94-16e44c03d2dc,29.465,0.085,Keep Lane / Straight
+50cfab6a-c69b-4a76-a136-d26c77cef894,21.748,17.591,Turn Left / Lane Change Left
+36b491e7-1db5-47b6-a2da-5cb85fb7baea,2.738,0.014,Keep Lane / Straight
+3c664241-99db-4331-954d-c31398b725e3,58.890,0.289,Keep Lane / Straight
+91a172d2-51f4-495b-98af-7e48bf93d417,24.281,22.023,Turn Left / Lane Change Left
+1fdf162f-bab3-477c-bbc6-e00ff90da4f1,75.670,0.172,Keep Lane / Straight
+cc32267a-b2b7-4630-bafb-f016fe97bd90,0.217,0.000,Keep Lane / Straight
+547e74b0-6507-4cba-b82a-f8229762bfe3,61.115,4.500,Turn Left / Lane Change Left
+0d78597d-ede1-460f-9e27-4d780a2cf3c9,7.242,-0.194,Keep Lane / Straight
+f6030fbc-2f2f-4748-bdfc-90265f6503db,33.356,0.212,Keep Lane / Straight
+936c554d-d0d0-4396-b34e-48c78b604d5f,28.712,-1.146,Keep Lane / Straight
+09fea71f-1fb6-4a25-883c-5830c9397704,117.704,0.240,Keep Lane / Straight
+75459f24-0e55-4722-be20-33bc27bc492f,42.878,-1.495,Keep Lane / Straight
+99739bbd-540b-4fdc-a1c4-903a24e741ad,49.820,0.513,Keep Lane / Straight
+5344afbd-7231-4f28-8a90-cac226bbb29b,61.894,-3.159,Turn Right / Lane Change Right
+18922559-603c-4fca-95d5-68eb95c74101,48.484,-0.582,Keep Lane / Straight
+366c3a25-5a5f-4b04-a8db-710fb61378ac,80.946,-27.851,Turn Right / Lane Change Right
+f0b784f8-22f0-4634-a30b-e14c8649504b,65.778,-2.419,Keep Lane / Straight
+adb155c5-d351-49ce-9bd1-e113f587e351,49.705,-0.688,Keep Lane / Straight
+0b51aa6e-1413-4bff-ba39-378eb4a88daa,0.632,-0.000,Keep Lane / Straight
+0c05b91e-2088-4015-bd3f-77cabc1de0b4,48.185,0.393,Keep Lane / Straight
+f47efaff-1c1d-4132-80b6-7e83319c9167,2.213,0.032,Keep Lane / Straight
+d8646d5a-9ccb-46d4-8f13-665dcfc835ad,27.002,0.846,Keep Lane / Straight
+d51dfc5c-dedd-4e7d-8537-a6bcb04f6f67,120.934,-22.106,Turn Right / Lane Change Right
+13351a90-6077-4add-ad4b-11b11e661dcf,65.603,-1.141,Keep Lane / Straight
+ff451cf2-b6c8-421f-91b8-c9ce23d5098c,67.417,-0.900,Keep Lane / Straight
+178bd5b3-ef04-4eb0-be13-486e5d660c05,7.198,0.052,Keep Lane / Straight
+0f4d34b3-d190-44c0-8f3a-a60f1fda70bd,2.289,0.001,Keep Lane / Straight
+d5816055-e490-49f5-87b0-13c35eaad879,0.000,0.000,Keep Lane / Straight
+81180846-a4d0-439b-b773-901c15cb0ef6,84.328,-0.328,Keep Lane / Straight
+0edc71a4-012e-4003-81c4-a85eadce3ed3,14.878,23.472,Turn Left / Lane Change Left
+348ddc2a-53f1-40e6-849c-10306707fcb0,13.757,25.826,Turn Left / Lane Change Left
+980b4881-e28e-46b3-81a8-b1b8a708e465,54.625,-32.917,Turn Right / Lane Change Right
+3262b9c7-7d44-453a-ab59-0937f4bb43a7,65.375,13.088,Turn Left / Lane Change Left
+2d8f83fd-2c3b-4efd-8f09-56a2189498b6,34.008,-0.874,Keep Lane / Straight
+a79ab35e-bcbc-4e72-863a-414bb349fb39,32.926,-19.134,Turn Right / Lane Change Right
+d61a8924-cac5-40d3-b0d5-9acbe5c5c057,9.166,-0.063,Keep Lane / Straight
+27be7e8d-b96d-49b9-b692-9138cfdbe30d,38.799,35.426,Turn Left / Lane Change Left
+edce97ea-3707-4902-b6b8-2391c2ce79f2,0.720,-0.000,Keep Lane / Straight
+1c7a4e2e-ae09-4ae5-b864-159d1c5ad2d6,48.470,-0.075,Keep Lane / Straight
+ae3dc55c-beb6-4eea-9f95-f1ed6afe47c7,187.120,1.836,Keep Lane / Straight
+943e3c58-e4a0-4380-a48c-ad37295c71c7,168.240,-1.062,Keep Lane / Straight
+c7dedc21-6330-4bce-99da-50d3f67e84e9,83.059,22.839,Turn Left / Lane Change Left
+9f1169df-2cf1-47d9-a5db-99069418f1ea,115.109,-0.594,Keep Lane / Straight
+8747ff81-4cf9-4964-937b-8fc3deb0c705,60.412,-11.689,Turn Right / Lane Change Right
+1e8e642a-62c5-492e-b90c-07188655e0dd,40.801,-1.313,Keep Lane / Straight
+7828b612-0cbc-4fa0-9beb-f1c0d509525f,0.000,0.000,Keep Lane / Straight
+d1fce42f-3b6c-4d26-a8ef-bdc1f934973c,80.905,-0.075,Keep Lane / Straight
+bf98624e-ef11-4186-8fa1-4b620c5f4ea2,51.731,1.695,Keep Lane / Straight
+6817504d-ed6d-4e22-bedb-3b0b1ebf1f84,47.083,1.785,Keep Lane / Straight
+97296057-7f63-451e-ac1e-9ef9abfd70ef,102.483,-0.281,Keep Lane / Straight
+acd07065-6928-42f7-aee7-6e5f9ec47e85,49.014,1.035,Keep Lane / Straight
+cc3a08b1-f241-48dc-a513-2990067e9c48,72.476,-0.280,Keep Lane / Straight
+f8eb20bd-ac51-45d1-90e2-27affb62260d,189.162,17.998,Turn Left / Lane Change Left
+b0ca4544-8fc2-42a9-b0a6-0e480ff236f9,93.975,-0.699,Keep Lane / Straight
+601790e0-3bd4-4455-9715-e264d2cc751f,61.182,8.776,Turn Left / Lane Change Left
+65d1f02b-8e01-492e-b7b2-6e40579c3a90,100.567,-22.678,Turn Right / Lane Change Right
+94861e96-9c48-47bc-98d8-df241fd9a067,58.376,9.189,Turn Left / Lane Change Left
+fd5409e1-e0e5-46a4-89fe-6a46664c38ce,25.099,0.340,Keep Lane / Straight
+6557aa3d-a165-41c7-bbf0-342f8532cc59,115.567,1.343,Keep Lane / Straight
+a4b00ece-38f6-47e7-aa80-fe7dcfd7c432,20.135,0.018,Keep Lane / Straight
+79d88b0e-6c2d-4981-8a7b-3bb090224de9,67.578,7.097,Turn Left / Lane Change Left
+94131f12-371d-43c0-8381-fd7497321cd4,123.576,-17.867,Turn Right / Lane Change Right
+26ec7e5a-eabc-4a59-85a0-d83ec4cb0bb1,77.744,-0.835,Keep Lane / Straight
+afc07f45-030d-41bf-8a93-83a75c84698d,24.196,0.244,Keep Lane / Straight
+b90fbbc2-daa8-4fdb-86e6-f3cca061801b,0.156,-0.000,Keep Lane / Straight
+1944d74a-600d-4766-a559-032df64a9e56,16.747,0.059,Keep Lane / Straight
+9cc82ecd-aa9c-4736-985a-de1cdf4de3cd,82.196,-1.858,Keep Lane / Straight
+693bd203-3218-44b9-a163-301eebb7c027,178.796,-1.887,Keep Lane / Straight
+a710e06d-b3ca-42f0-b6e1-45c397f6c90b,87.207,-8.352,Turn Right / Lane Change Right
+986a62cf-c52e-464e-9316-b96412f416f1,65.077,-13.515,Turn Right / Lane Change Right
+76c8fbc4-e777-4ea0-a31c-9c218f6b114a,44.841,0.104,Keep Lane / Straight
+e8f26a13-424a-40a8-ae65-f19370c6bf36,53.565,0.016,Keep Lane / Straight
+32786cbf-8cf1-458d-b172-a12804966999,52.482,1.220,Keep Lane / Straight
+44720706-473c-4d46-b642-d1c0b357b426,63.294,9.634,Turn Left / Lane Change Left
+4e943fd5-6b86-4daa-a1e6-c2afaec43af5,59.387,-0.239,Keep Lane / Straight
+6a9583cb-1857-40a2-9f80-7d523099dc32,109.799,3.114,Turn Left / Lane Change Left
+eb497ca4-5e9d-471a-834c-054cdb1356aa,-7.814,8.077,Turn Left / Lane Change Left
+d8a4c03b-76d0-40c8-bad0-45bc72457897,48.838,-0.190,Keep Lane / Straight
+80442df3-e466-4248-b32d-1431ac15664b,0.000,0.000,Keep Lane / Straight
+9e6e4011-7c49-43a3-9249-89f27fce7979,29.080,0.298,Keep Lane / Straight
+62630fd9-40c7-42d5-b3e0-88607171fdaf,137.594,-2.364,Keep Lane / Straight
+7ff95769-f84b-4d21-8a09-822b18186920,33.857,-14.156,Turn Right / Lane Change Right
+88ddf5f8-0f4a-4f0d-b9de-dcaad94df550,96.960,2.066,Keep Lane / Straight
+19a1b27e-4030-4246-900f-ee6e66145337,88.761,1.909,Keep Lane / Straight
+68c82652-7b32-4dbc-8feb-89f062a6e510,90.639,-0.875,Keep Lane / Straight
+b997466a-5219-458a-b454-3b1f14f80a57,18.735,-0.147,Keep Lane / Straight
+f135867d-a58d-4147-bfb6-24b81b646141,0.002,-0.000,Keep Lane / Straight
+4b9cc829-42bd-4b44-a7d4-c8c4f9554322,22.103,0.546,Keep Lane / Straight
+24dc6355-8746-4ac0-b585-e49af887d2b8,70.549,-1.001,Keep Lane / Straight
+ae4712a6-cd81-4431-aa90-2a3242ab1a93,91.423,-0.445,Keep Lane / Straight
+9a1a0386-ce80-4ab4-9cb8-e041d9c5764c,42.631,-59.427,Turn Right / Lane Change Right
+042dd622-75d9-49d7-b2af-a305573f1fe4,47.526,-4.711,Turn Right / Lane Change Right
+b0270693-b500-41e0-92fd-06743593020f,50.067,6.577,Turn Left / Lane Change Left
+1bac4baa-1d06-422f-9619-ca958f5485c8,69.193,0.331,Keep Lane / Straight
+3bace732-bc86-49ae-a7dd-6cc173fd917d,43.789,-42.870,Turn Right / Lane Change Right
+0e5584fb-298c-4236-8979-3f1623bac2a3,107.521,-0.017,Keep Lane / Straight
+04dc80a2-4b54-4472-ab02-f79c48a319e7,59.642,-0.605,Keep Lane / Straight
+b4d84ff5-ba1f-49f7-9665-5719ecbe3362,82.512,-3.255,Turn Right / Lane Change Right
+efac6fcf-ce67-4d85-9389-c6ad6a8ecd89,71.089,0.159,Keep Lane / Straight
+4d891e19-3037-480f-99e2-ea43e03d76f8,77.496,4.037,Turn Left / Lane Change Left
+622c9a0f-2f0d-4553-a26f-55d759e6c2b7,14.788,27.725,Turn Left / Lane Change Left
+1fc23feb-c724-4f27-9b55-1ad27b11af05,79.981,0.930,Keep Lane / Straight
+bca52286-d207-4d37-bc79-61cebad94cb0,57.369,-0.364,Keep Lane / Straight
+1b668dc3-897a-432b-97cb-d6e50174593a,41.901,0.632,Keep Lane / Straight
+6fd3747d-e98f-4097-9389-4d4a4866f169,0.000,0.000,Keep Lane / Straight
+22d0a0d7-92c6-48dd-9a6b-e69660f5bdcc,22.354,-44.436,Turn Right / Lane Change Right
+911e5fe8-a8ee-4e51-8454-b8ec8c5e88af,36.183,-0.601,Keep Lane / Straight
+6329e488-1d05-4b5c-b44f-2794ca732c4f,31.493,-10.009,Turn Right / Lane Change Right
+b3aad0ca-b279-49a6-b254-fd00e4ca203c,66.685,0.018,Keep Lane / Straight
+01b650ad-0d41-41c2-92c2-5f0f42a6ab7f,12.808,3.931,Turn Left / Lane Change Left
+0b7a071e-0937-44d3-a3f1-bb58918555c3,0.000,0.000,Keep Lane / Straight
+3423e1b1-ff45-48fd-8dee-2ee84fcc3136,44.333,32.149,Turn Left / Lane Change Left
+bd3a50f8-19ab-414f-a81a-41e807ed8e6a,87.230,-0.133,Keep Lane / Straight
+13e181bf-7f7e-4565-b4f1-e5736ce3a2c5,31.209,0.117,Keep Lane / Straight
+07988dbe-41c5-45d6-8c50-f2c58ff2024a,60.921,1.055,Keep Lane / Straight
+b075c2de-5019-44c9-880a-88b1a17d0d0d,5.068,0.009,Keep Lane / Straight
+048c84f5-e4cb-453a-bdb5-88cd9e1bde03,174.426,-6.256,Turn Right / Lane Change Right
+03cded41-c09c-41d0-b9c0-1017858e51bf,74.119,-0.694,Keep Lane / Straight
+348d9e94-a4c0-4ef5-9fa0-863161e00541,97.378,31.570,Turn Left / Lane Change Left
+60c7527a-3db4-49ce-9b14-13da907f2392,35.420,-33.464,Turn Right / Lane Change Right
+f9f85081-350f-47db-b358-bd9b94e8f866,47.989,-51.523,Turn Right / Lane Change Right
+004f1e73-120a-4fe0-bf7d-9e1cd2cfcc43,87.769,-0.295,Keep Lane / Straight
+f7d0171c-acf5-4b0f-90dc-a72733a1d3e0,16.377,-27.819,Turn Right / Lane Change Right
+1f00270f-bf87-45e4-9b41-5938df6cc9ae,157.419,20.078,Turn Left / Lane Change Left
+efe60d4f-af10-4b28-8c96-10bf7f5766d7,1.524,-0.004,Keep Lane / Straight
+580342b2-1de4-4138-a384-b1a1a9080ce3,0.176,0.000,Keep Lane / Straight
+41f05e4f-19b9-4ac4-9872-76541c713a2d,35.997,-4.625,Turn Right / Lane Change Right
+14129d98-e44b-41b5-8623-5676dd14b011,138.260,-1.223,Keep Lane / Straight
+6ec0841a-023b-4bf1-a2a8-de1d01dd43e0,24.781,13.970,Turn Left / Lane Change Left
+212f0b7f-f061-4701-82db-18af305c1a00,60.081,46.951,Turn Left / Lane Change Left
+23b72df4-f9e3-4cad-ac48-b19b8077a154,72.902,-5.441,Turn Right / Lane Change Right
+5c3424f1-ec06-4fd0-b3d7-196265eeba2f,22.881,39.535,Turn Left / Lane Change Left
+1ccc80fa-3b2e-4880-820f-d5e572cd6699,43.467,24.859,Turn Left / Lane Change Left
+5bb22bb1-c911-4e58-85d2-cb562119fa21,161.056,-6.106,Turn Right / Lane Change Right
+7120d799-d93c-4fb3-a47a-20f6cd083de2,110.484,-0.837,Keep Lane / Straight
+45c4d4af-fb70-4ca7-b408-652277f77827,13.978,-10.131,Turn Right / Lane Change Right
+c2a92cdf-e81e-4c07-8186-ffb3298eeddf,113.850,-7.563,Turn Right / Lane Change Right
+b2fb6af8-4bd6-4214-8424-8a78e9668160,74.123,-0.265,Keep Lane / Straight
+0dbc6686-be61-4042-b0a0-1c7d7752faf0,29.371,0.106,Keep Lane / Straight
+f48177fa-ab16-4840-9d21-6201488c46ac,39.207,13.484,Turn Left / Lane Change Left
+170c781f-7b36-4455-a779-3ddb83164f8f,134.064,-0.531,Keep Lane / Straight
+191f58fb-fa67-4199-ab93-87375e06cd60,50.939,1.041,Keep Lane / Straight
+0cfecd5a-780c-4532-bbfe-4553864075b2,-0.001,-0.000,Keep Lane / Straight
+5ed1e352-859a-4e77-983b-0a4db925e605,43.883,-1.119,Keep Lane / Straight
+3e039f16-362a-47a1-996f-341a5ddd819d,172.654,8.382,Turn Left / Lane Change Left
+ccce3358-320c-494c-adf7-ab313d6edf15,19.569,0.052,Keep Lane / Straight
+1648d842-010e-49e5-a6ed-17b095cf20ef,37.500,-2.600,Turn Right / Lane Change Right
+2642565a-3174-4b5d-9f2e-6884ec4d830c,14.741,5.315,Turn Left / Lane Change Left
+6e28b9a4-94e7-46c5-bfd3-94ad5b035b44,59.980,-1.182,Keep Lane / Straight
+4398ac78-7ba1-473e-9f18-58978b8ac648,115.856,-3.568,Turn Right / Lane Change Right
+3c137614-58c8-4593-8005-d645fd521bee,25.171,26.004,Turn Left / Lane Change Left
+5e975148-a24f-40d2-987e-8710f1b8d52f,15.959,47.773,Turn Left / Lane Change Left
+d6f721ab-6421-4bed-b491-bf49ecde0793,8.386,-15.583,Turn Right / Lane Change Right
+c1ec022b-126f-454c-ad03-cc5aff7e0861,103.527,0.410,Keep Lane / Straight
+18101a77-6c97-49cf-9644-3656e86648e2,60.382,0.912,Keep Lane / Straight
+56421486-000d-4c28-b0e6-626e9088e5ee,119.248,-0.006,Keep Lane / Straight
+6f67eca3-587d-43b2-956e-b4076e9ea5ec,37.433,0.038,Keep Lane / Straight
+7dd29ea4-49c2-4d7c-bda4-5e4903af93b9,79.548,-37.908,Turn Right / Lane Change Right
+3cc8668f-f1e5-4d2d-a256-fd22202776c0,75.498,0.045,Keep Lane / Straight
+b647b597-c0c0-4c01-bd61-a2b6c9fe0fbe,36.346,0.661,Keep Lane / Straight
+0048d1f7-4f1c-40fe-805d-f0258a39e6e2,41.470,-4.702,Turn Right / Lane Change Right
+75656166-2555-44ce-91f7-a3426a31f288,59.833,17.443,Turn Left / Lane Change Left
+5aeb7325-eb18-4a4b-934d-c29bd9a3950e,22.465,20.043,Turn Left / Lane Change Left
+98c81094-0d96-431e-aa84-c7cdeb27fa25,115.070,2.596,Turn Left / Lane Change Left
+bb2f5a54-ef74-412e-81e8-191afb40e911,51.740,0.062,Keep Lane / Straight
+cae81cd9-0b5d-4672-bffd-4c5037378390,48.833,-0.271,Keep Lane / Straight
+560966c4-4366-42c6-aed3-419dd9be1da9,32.291,-3.133,Turn Right / Lane Change Right
+08fc8cfc-7609-4b87-88e5-ce25e7484932,63.590,0.411,Keep Lane / Straight
+f7859ade-94cc-46bf-a7bf-8205ff4fcaea,77.364,-18.642,Turn Right / Lane Change Right
+3279098f-074e-4812-b02a-b166dcdb2139,0.000,0.000,Keep Lane / Straight
+ca9e2a0f-dd7a-469e-8ad0-75f8f52b578c,43.913,0.689,Keep Lane / Straight
+0049e298-c517-402a-ae5b-fc97a398a154,16.026,-0.014,Keep Lane / Straight
+b7c967bd-4169-4f19-94e8-2a086173be32,0.056,-0.000,Keep Lane / Straight
+a0b0e1c7-7241-49ef-9175-5625a1d03cde,119.961,31.480,Turn Left / Lane Change Left
+c13e2c8e-68a5-4b62-83ef-656f05094649,54.721,1.983,Keep Lane / Straight
+18b48432-c9a6-4ef0-a990-5a63392a80aa,22.230,-0.494,Keep Lane / Straight
+cdca3637-e421-4e4a-b8e7-6f40d37d9aca,99.032,-8.936,Turn Right / Lane Change Right
+21f73ee4-6718-4c75-bffc-58873a2b30ed,13.360,-1.572,Keep Lane / Straight
+c85bbfc8-e0a3-406c-85b3-1122fd4b76ad,34.222,0.048,Keep Lane / Straight
+0dca7ec0-766c-4d52-8e54-d8bab8924538,102.736,1.874,Keep Lane / Straight
+ac813da7-0f8a-4e4b-9462-7de36f19c695,19.422,0.391,Keep Lane / Straight
+2885e97f-ef35-4453-87b6-5d695ee890e0,14.412,0.086,Keep Lane / Straight
+bd265313-bc55-473f-af88-38a0e078423c,59.657,12.197,Turn Left / Lane Change Left
+bd01a138-a8d4-4e8f-9717-084da147f819,57.964,0.059,Keep Lane / Straight
+9030e33f-b823-4eee-a488-862b33c1403d,63.932,0.005,Keep Lane / Straight
+a3c2be2e-2f88-4751-9b9b-ae345f23f76b,65.454,0.347,Keep Lane / Straight
+3c7b1d79-1fb3-4782-b800-b5f599de4408,26.687,-53.741,Turn Right / Lane Change Right
+c884726b-bc9d-42c8-89ab-fa76c8effc4e,72.812,0.647,Keep Lane / Straight
+bfe053c4-4ee6-4ccc-8032-39fabb7a905a,71.921,-0.463,Keep Lane / Straight
+89bab3ee-86fb-4d7a-bd9a-167740af1fd2,56.536,0.499,Keep Lane / Straight
+ef3017f7-089b-40c8-9489-7ec9a480c08c,92.216,-1.378,Keep Lane / Straight
+8a6c6c15-e64c-4002-85d4-bdbe8e90d832,38.704,-37.599,Turn Right / Lane Change Right
+23f62285-124b-4d22-8e99-b16041216498,116.127,-0.121,Keep Lane / Straight
+db94227b-0fa8-4621-bdb2-eae4ddce7e74,14.903,42.409,Turn Left / Lane Change Left
+8a5fcb21-17c7-4fc8-a44c-58398361eca7,93.646,0.641,Keep Lane / Straight
+caa27d45-8ea7-4e53-aad9-d2c7bfe0b882,71.995,-21.736,Turn Right / Lane Change Right
+b0fa13d6-b48a-4bde-9f06-32c6546af7bc,166.838,-4.756,Turn Right / Lane Change Right
+8caaedb8-30ae-4ce5-a522-bbd4bb92ba4e,168.798,-2.907,Turn Right / Lane Change Right
+999fa6c1-ce97-47ec-ad1c-f1ccaad0eca9,57.120,-1.184,Keep Lane / Straight
+3c820363-2fd9-4cda-b39c-490ca177ec9d,34.942,45.942,Turn Left / Lane Change Left
+26197478-63f8-4ced-abb4-2bf0da131233,29.151,33.669,Turn Left / Lane Change Left
+5ac88db5-3329-4fbf-b454-26c1e1e114ef,74.409,0.917,Keep Lane / Straight
+92422340-78aa-4833-9b84-62f73f954cd7,0.445,18.249,Turn Left / Lane Change Left
+6094cb6e-f494-4149-a822-8f5ca50595bf,0.103,0.000,Keep Lane / Straight
+0cf8e0af-40a7-4853-bc4e-bfc156acae39,28.743,23.504,Turn Left / Lane Change Left
+80f2dc8f-f4f0-43d3-93b4-98f3586bf435,41.309,-2.914,Turn Right / Lane Change Right
+b6496a3a-b295-4a8b-8436-08152fffd810,43.931,-39.436,Turn Right / Lane Change Right
+f69d426d-033d-4982-88c2-db31dd2a3013,58.476,0.386,Keep Lane / Straight
+2e723425-7bfa-438a-9578-d8bef42d931b,33.479,-0.240,Keep Lane / Straight
+0ac1b3f5-ed6c-49de-b2a1-9a7f374c3ae4,35.532,40.268,Turn Left / Lane Change Left
+a5ee3257-0c4e-4674-af19-6c14aeff5d47,30.419,-44.298,Turn Right / Lane Change Right
+9faad5d4-43f1-4e48-abc9-0890f6de36eb,60.733,28.216,Turn Left / Lane Change Left
+b0bb0452-2ec5-4b64-a476-c43edb6bb0ef,47.650,1.775,Keep Lane / Straight
+459a7108-0ece-41bb-8bb0-afcde0ec02a2,81.961,-7.095,Turn Right / Lane Change Right
+b23dec50-6a44-49b6-94ab-147ba4f4b041,72.529,-1.980,Keep Lane / Straight
+4ca58e0d-7b6e-4cc4-b97e-10f60737ddf2,96.753,15.528,Turn Left / Lane Change Left
+a445b9f0-0859-4732-a634-48d87d1a603d,10.041,0.264,Keep Lane / Straight
+53812179-4e06-4eb2-ab0f-503eda61f5ed,12.034,0.258,Keep Lane / Straight
+07057541-0e26-4afa-a682-d6dcddc83fc4,136.420,-2.780,Turn Right / Lane Change Right
+68ec117e-eb0f-48eb-a755-f313b81ab5ca,113.974,-8.463,Turn Right / Lane Change Right
+e398dee2-6cb1-483a-a38d-463869746515,54.414,-0.328,Keep Lane / Straight
+9a2a597e-cc10-4d79-b807-3765e5bd79cd,8.247,-0.014,Keep Lane / Straight
+bcabd695-ce4e-4e9c-b02b-9a0d5e4ac2ab,67.878,2.043,Keep Lane / Straight
+ee530903-d5ec-4ba4-8ac0-acba59d51552,38.055,-32.829,Turn Right / Lane Change Right
+749787d6-a9c0-427a-be70-72c5d1d7b5fe,68.476,-11.604,Turn Right / Lane Change Right
+6e998453-c3c0-4118-a32a-63422e70780c,59.043,-0.631,Keep Lane / Straight
+12889a28-9383-4b38-9827-581f4c1d97a7,83.093,-0.593,Keep Lane / Straight
+8a0dc63e-e3ce-46ee-9167-3fffef2a20e5,0.615,0.000,Keep Lane / Straight
+f1889c65-e84e-4a9b-af9c-92116c5a756b,15.011,-15.616,Turn Right / Lane Change Right
+0de8cfae-8baf-4d0c-8c6e-0b450a1dac16,55.858,2.952,Turn Left / Lane Change Left
+d086e256-5ee1-4453-a872-5a96c7497eba,97.132,0.228,Keep Lane / Straight
+e3ed8364-3705-44fd-804a-c92c034bacd1,17.345,5.463,Turn Left / Lane Change Left
+7ed37bcc-8287-4ebf-9a7f-9fa90e3c790e,0.245,-0.000,Keep Lane / Straight
+1dd0e33a-19d7-44dc-aae5-44fa6f345ce2,17.204,26.278,Turn Left / Lane Change Left
+0fe8dc9d-19ee-4c05-bbc0-0b1571e06936,50.840,1.989,Keep Lane / Straight
+09e9700f-e586-4628-a1d7-5213d027e84d,65.143,-35.266,Turn Right / Lane Change Right
+e238b307-fa2c-4298-aacb-aa093999007a,46.236,2.574,Turn Left / Lane Change Left
+06ea3852-b3af-41a6-a64d-b258b627e6e0,20.647,-0.486,Keep Lane / Straight
+12f83d9d-fb49-4e7a-91c4-6b4b12a7c9be,16.290,-29.604,Turn Right / Lane Change Right
+0e980d48-3fea-47a9-94c8-46a0379813dd,40.970,-5.714,Turn Right / Lane Change Right
+7b68ce20-b006-48cc-9bbd-20da8840c647,57.658,2.290,Keep Lane / Straight
+6edc8873-b432-45a2-83ab-767172048e97,40.294,1.358,Keep Lane / Straight
+dca1c44f-b213-415e-b867-7b5c423e8879,78.815,-10.370,Turn Right / Lane Change Right
+ec880386-b123-46bc-97c3-b182bd227dfc,23.583,-0.163,Keep Lane / Straight
+7d3f4c43-8b38-4c33-b8ab-9ad10cc0e4b0,4.633,16.382,Turn Left / Lane Change Left
+deacf4e1-57d7-4da5-8bd9-fba28721a175,62.504,-5.831,Turn Right / Lane Change Right
+75ae0027-f9bf-446d-abdf-331588dd6801,20.865,0.978,Keep Lane / Straight
+1e8ad61f-f997-4fed-bef2-f211471ca418,24.766,-0.175,Keep Lane / Straight
+dd18406b-59c2-4a8b-b1ea-2b216c144d22,26.455,-1.356,Keep Lane / Straight
+7999481a-c297-44dc-8721-b2354e42e76f,31.953,26.807,Turn Left / Lane Change Left
+87a4a6aa-f987-4015-b1d9-7cf33771cb88,70.639,28.882,Turn Left / Lane Change Left
+c77dbebd-066a-48f8-bdf0-eb69a4d1b589,31.498,11.720,Turn Left / Lane Change Left
+4c0e3c7c-375d-44d2-bc9f-6e1297383df3,59.237,-0.997,Keep Lane / Straight
+826b6a96-c7df-4f12-83c5-3b0cac2b03fb,25.178,0.111,Keep Lane / Straight
+2392bff8-8342-4b6b-ac12-18f2faddd926,26.301,0.209,Keep Lane / Straight
+cae26998-88b1-4796-b09b-bf80fd2d8b05,102.129,-1.970,Keep Lane / Straight
+da823d3d-4bae-496d-aeba-33bfef5fbb6d,97.363,-6.214,Turn Right / Lane Change Right
+7e92b2d4-a401-417b-8ca4-a4e803b67fdb,48.095,0.118,Keep Lane / Straight
+31fa3236-4571-40d7-b66b-01268171f01a,40.293,0.596,Keep Lane / Straight
+061c54ce-68f8-49ce-8999-93e79496c555,86.806,0.028,Keep Lane / Straight
+3bc7f29a-3609-4a59-a592-abdc720fa257,60.205,2.055,Keep Lane / Straight
+049c46fc-4ec5-468b-810a-341cdff885e3,22.517,1.111,Keep Lane / Straight
+31b6e8da-e182-426c-b848-9fd42dda0517,67.365,-3.840,Turn Right / Lane Change Right
+5374715b-ae03-4365-a651-800db8dea808,55.364,2.581,Turn Left / Lane Change Left
+55ff7a79-9247-4b9a-8ac3-31edfa438a69,14.162,-6.493,Turn Right / Lane Change Right
+e14a09a0-8ab2-4991-9a42-cea0944c5ba1,53.834,-0.077,Keep Lane / Straight
+631395b1-1e37-47b9-9793-8b0ca33ebfff,2.848,-0.004,Keep Lane / Straight
+193fdd14-efb9-46d4-a578-1b61e842216c,130.290,-5.562,Turn Right / Lane Change Right
+39f477a5-bf5d-4e97-912a-21a3f7501d19,7.387,-0.013,Keep Lane / Straight
+2ee7f01b-8751-4b9f-b43a-9a3c09330bbe,77.433,-0.081,Keep Lane / Straight
+392a07ba-f5d9-421e-a508-d9bbd92ae740,77.808,0.764,Keep Lane / Straight
+26cb782f-1d76-4b4a-8b42-81ff81b02f38,181.499,-0.276,Keep Lane / Straight
+d76ee634-a600-4b3f-a015-ef4a815dfc38,16.459,0.404,Keep Lane / Straight
+8f7ac9f9-bd1d-4fc9-981a-1945919c6ecb,79.120,-0.770,Keep Lane / Straight
+94dda003-4487-481b-be36-d9f3ce603c7d,63.814,-18.445,Turn Right / Lane Change Right
+341eb44e-e395-46e3-b0ff-4dce44e7c77b,62.788,0.352,Keep Lane / Straight
+48866586-9b25-4b07-9d2b-ac88a28e628a,20.447,55.780,Turn Left / Lane Change Left
+8a4e4966-2556-4efd-b35e-84d3d6dcabbe,49.516,-2.081,Keep Lane / Straight
+516ea383-c2c7-4bef-a170-2162b70efe81,35.484,2.405,Keep Lane / Straight
+70fa9956-a462-4ca0-ae39-aba5d298c5c3,3.199,-0.003,Keep Lane / Straight
+065e054f-ff7f-45cb-8eb2-8d42abff1095,75.965,-6.761,Turn Right / Lane Change Right
+30539dd6-4bfc-4e0b-a238-ba00e00b9374,87.462,2.106,Keep Lane / Straight
+ffe28b06-1041-436e-ad8f-3cfe6dee2537,67.325,-0.425,Keep Lane / Straight
+bcb6e440-939d-472b-be9d-c8733d9398e7,212.863,10.542,Turn Left / Lane Change Left
+9a4a6923-d4f8-4f11-b18f-127a0f6a9f45,27.004,-0.611,Keep Lane / Straight
+27a58a4d-f07b-4fd7-bc92-4838cb56a75c,87.885,-0.472,Keep Lane / Straight
+55244160-f2d3-4bba-b4e2-c6d554b9777d,43.559,0.240,Keep Lane / Straight
+b1b9f919-b5d1-4726-a9d8-a8fce86eda75,3.316,0.010,Keep Lane / Straight
+3555c64a-44d1-4065-9533-c921160d21fd,66.981,-0.344,Keep Lane / Straight
+4168eff0-93fb-4ff0-9262-19e58ad96985,40.864,35.476,Turn Left / Lane Change Left
+526761df-4f14-4c16-942b-629d8f5aa25b,19.183,2.795,Turn Left / Lane Change Left
+ae59f60c-0ed7-4372-83ab-4742aecc6260,28.459,-44.497,Turn Right / Lane Change Right
+8a733e0a-61d0-40d4-a37d-c2e022e3b878,139.751,-2.487,Keep Lane / Straight
+ecdad2e1-1a35-403f-85e9-6e755eead68e,71.125,-3.986,Turn Right / Lane Change Right
+1bd21978-5888-4e5a-9702-cc25b362cbdd,63.793,-51.636,Turn Right / Lane Change Right
+51b5c4fb-980d-4329-b07f-98982df3a0e8,111.100,-1.345,Keep Lane / Straight
+d69add23-cb5c-406a-9ca0-269600247dbd,111.598,1.556,Keep Lane / Straight
+47cee085-886a-4356-97a3-4eb263c6c56e,22.493,-0.054,Keep Lane / Straight
+ba87cf7a-49df-45cc-bd5e-56374ff7ee40,39.188,-52.437,Turn Right / Lane Change Right
+2544047c-d181-45cb-b0e0-66a29bc5bbac,33.966,0.363,Keep Lane / Straight
+53a029bf-1c31-4da5-bb14-05e6fb8d5803,119.206,0.941,Keep Lane / Straight
+93f392ab-2040-47c6-a835-94d39f88b97a,49.906,-0.184,Keep Lane / Straight
+8d7b8eae-3fa3-49b8-a229-760591d8eecc,30.423,30.658,Turn Left / Lane Change Left
+2a967876-d81d-4a68-b4a1-8edae71ac3eb,118.407,15.734,Turn Left / Lane Change Left
+2dab08c3-0a54-475f-b434-6244252b804a,78.483,-0.709,Keep Lane / Straight
+abc62e70-b2a0-4c9e-b7f1-c0ebdf4a6d90,131.568,7.877,Turn Left / Lane Change Left
+e41668d2-bd11-4c63-a0b1-84c8fd394a3d,85.520,6.568,Turn Left / Lane Change Left
+8831d0cf-7328-4f09-b68b-93be56bd637a,30.381,-23.146,Turn Right / Lane Change Right
+6cb3a533-6b61-4abc-8c96-30a04ea0b394,140.655,15.046,Turn Left / Lane Change Left
+7d5f4d30-3e2a-4784-a6a4-dbdcf4dab776,119.390,7.837,Turn Left / Lane Change Left
+0bef90c0-115e-408d-ae1c-dc2d8dd7e291,11.566,2.944,Turn Left / Lane Change Left
+7c6bbf86-995f-4cd4-9605-83ca3b4c1e87,21.826,-0.056,Keep Lane / Straight
+0a5b0f5d-bd9b-4957-9bb4-eb08297e3a87,117.250,18.226,Turn Left / Lane Change Left
+194c572d-580a-4143-b793-d9eb30fc25c4,135.074,21.820,Turn Left / Lane Change Left
+81d51df6-f179-41bc-ac84-9db9d367f6a5,107.600,4.124,Turn Left / Lane Change Left
+a6320812-0192-4529-9164-0b0160bc5410,45.630,-2.352,Keep Lane / Straight
+2aa33d3b-d9ea-4ccd-9ca6-a1ed01472d1b,145.047,0.640,Keep Lane / Straight
+7b23ab7e-e6a9-4ed7-89ce-b2b0ca91495f,5.320,0.004,Keep Lane / Straight
+c832e630-b495-46cf-af19-24e6bf8a24bd,46.205,-0.207,Keep Lane / Straight
+b76f918e-555c-40a4-abf4-b0786f2f77bd,1.618,-0.001,Keep Lane / Straight
+8c2c2282-1382-4652-a9aa-e4f933e1b522,49.426,-1.813,Keep Lane / Straight
+7eb4c075-d3ba-4f87-903a-54767d6df423,111.937,3.826,Turn Left / Lane Change Left
+4e598443-5b03-4c8d-b385-debcd6860a0b,15.370,0.632,Keep Lane / Straight
+04079ff4-24e5-434c-b5e9-e8649db2ae85,89.162,23.295,Turn Left / Lane Change Left
+5f6e24d1-e445-4ad9-bcfa-37d0a6327fc5,23.855,45.433,Turn Left / Lane Change Left
+73cdb83a-82ba-4637-8a4a-fc434acf7493,39.111,-21.783,Turn Right / Lane Change Right
+7d2f0770-2eec-45fc-9434-3ad7f5444b3d,12.362,0.030,Keep Lane / Straight
+82ac46d8-9988-4a42-afa7-76adf315b04c,48.841,0.374,Keep Lane / Straight
+3f77f33a-1921-4181-a478-dff87b0d357b,144.178,0.848,Keep Lane / Straight
+c56d2e83-dfef-4a77-9ff5-6be3c039f471,38.269,-1.129,Keep Lane / Straight
+2ed6008e-aa1c-43a6-a115-75c45b6494c9,31.647,3.462,Turn Left / Lane Change Left
+b8c0085f-5423-42bf-a802-2ef493b7e06d,83.490,-2.491,Keep Lane / Straight
+a9b9a0e4-800b-443b-ae92-25939c25f603,28.614,0.888,Keep Lane / Straight
+89a0566a-d00a-4322-b51c-80dafc3a9045,20.870,11.333,Turn Left / Lane Change Left
+488c8355-fd32-4051-9d9d-678decdddef2,46.523,18.987,Turn Left / Lane Change Left
+036ac0cf-4961-421b-88c9-248a63617bcc,61.807,21.226,Turn Left / Lane Change Left
+f7513fb4-f1e1-49be-adc3-e9b03769c925,57.712,7.810,Turn Left / Lane Change Left
+8131c0d3-1e1c-41f5-a4c0-dd2a533814a5,12.786,0.061,Keep Lane / Straight
+274e3234-9582-4c88-8d1f-297826cd2dbc,19.762,-0.106,Keep Lane / Straight
+49c5db05-4d32-4ef3-a7d1-1b0740fe0bd0,50.002,-0.125,Keep Lane / Straight
+39b7b575-5bd3-4e2a-a1f3-d6b7fc2f223b,96.183,10.746,Turn Left / Lane Change Left
+4b7e4466-5620-413b-8f5a-04c4be20c6cb,1.323,-0.001,Keep Lane / Straight
+b331b8db-d3b3-43bb-9479-a77814058e1f,41.940,-0.168,Keep Lane / Straight
+40361679-def7-4c31-806d-927cddbd22af,51.708,0.666,Keep Lane / Straight
+7d19bde0-4082-4f8d-826a-bbfe754336b1,69.071,8.122,Turn Left / Lane Change Left
+e5949c7e-a448-45c2-87a8-70d17fd0d1ce,5.940,-0.024,Keep Lane / Straight
+1b8d019e-def2-4101-a81a-04a9af21ec40,0.135,-0.000,Keep Lane / Straight
+011f6957-d3f3-40d9-b3d4-455753118f89,68.007,0.368,Keep Lane / Straight
+805d98a3-6057-4e78-b288-146601cf19c0,31.753,0.539,Keep Lane / Straight
+ea1f486d-bf9f-4c28-b546-d42dac7e2f5b,185.115,-16.733,Turn Right / Lane Change Right
+db74bcb4-3004-47f6-b605-74efbe2424fb,8.398,-0.015,Keep Lane / Straight
+24cdc00c-b862-4411-b429-e270dcf06da8,26.838,0.340,Keep Lane / Straight
+0af58f02-96f5-4128-be64-d4fc3819a59e,60.172,0.192,Keep Lane / Straight
+5a4584f9-3776-4d9b-b709-59634257021c,115.966,28.742,Turn Left / Lane Change Left
+e305ccf3-9f31-4b57-bfeb-9b0543ad1c47,11.598,4.968,Turn Left / Lane Change Left
+8bc2df3e-6f06-47ee-82d1-119b1b27d635,27.368,0.098,Keep Lane / Straight
+9d8f929b-23b6-405c-adc3-5084a9e2a702,52.413,-0.030,Keep Lane / Straight
+4e4c8fdc-11cb-4c0b-a08d-6329653263d6,88.321,12.117,Turn Left / Lane Change Left
+906e5b9d-a67d-4e80-9b8e-24e9653de5ff,55.798,0.032,Keep Lane / Straight
+6fb6ae50-dc5d-4de1-85c4-02bc0f303619,113.317,-0.166,Keep Lane / Straight
+d3b48aa7-c2b5-4c71-98ee-0d05b78a5c3f,54.042,0.126,Keep Lane / Straight
+22746289-a882-4a2c-8f93-f36e276964b0,76.568,28.877,Turn Left / Lane Change Left
+68eee49e-7e35-4dd7-a5fc-27cbcc728e6f,116.583,0.461,Keep Lane / Straight
+ebd33692-e6ec-4a69-8230-8d761fe4aead,42.482,0.560,Keep Lane / Straight
+49551848-d631-49ba-8742-8f58ac1504c0,31.493,2.305,Keep Lane / Straight
+77c256cd-d119-4c82-b172-729e0e852e4f,61.673,4.096,Turn Left / Lane Change Left
+b22970c1-9055-447b-890b-406754735f16,70.176,1.150,Keep Lane / Straight
+d1fdbe99-e2c5-43d1-8bc3-8e4efdef93ab,25.179,-58.150,Turn Right / Lane Change Right
+abeba691-d816-4d39-9aac-ed8bc5ab2f9b,64.884,1.947,Keep Lane / Straight
+c94af38c-2a6a-4337-a33a-28fd14ba7f23,20.761,-0.332,Keep Lane / Straight
+08ef8337-0935-4adf-81e8-7d6b162509ff,5.481,0.047,Keep Lane / Straight
+a71cb762-0871-4e16-b2eb-464918644104,39.835,-0.765,Keep Lane / Straight
+9ccaa236-7310-4c62-85e4-15411e9a53ac,26.013,0.377,Keep Lane / Straight
+1f37446c-aa93-4792-a022-3330f08fd02e,86.323,0.527,Keep Lane / Straight
+9fb48c7e-71c2-412c-b688-255db21a3c00,118.993,-0.136,Keep Lane / Straight
+0514964f-f0af-4a81-801e-ae1ae6488871,16.465,2.161,Keep Lane / Straight
+57f4c7cd-2f50-427e-a003-043b5294d755,32.540,-3.111,Turn Right / Lane Change Right
+83fb51aa-1405-499d-8e8f-a5fc056030c0,79.457,-0.581,Keep Lane / Straight
+2e6c9958-7a9d-44b4-bd45-e561a81f6ce9,89.213,-10.967,Turn Right / Lane Change Right
+99a8ce6c-77ef-44a2-af9d-686bac759217,77.084,-1.293,Keep Lane / Straight
+6ef8eeb4-8236-4e01-93d6-6d36e6783783,79.424,-17.219,Turn Right / Lane Change Right
+e67e346d-6374-4915-b4b1-3d7d515b7150,163.893,2.048,Keep Lane / Straight
+efdcd7e3-fc3d-43d5-94ff-1918b7b71178,43.520,7.153,Turn Left / Lane Change Left
+55d67060-2f4d-4af0-8945-2f6a051543a3,58.191,-5.024,Turn Right / Lane Change Right
+5c259b53-45f3-45c1-9991-59770288ceb0,23.734,-6.127,Turn Right / Lane Change Right
+8d17b6ef-4ff0-4439-aca0-77fb03253839,65.274,-3.966,Turn Right / Lane Change Right
+a1e4d2c8-0fcd-4cab-ab77-9c5d95dfbecb,32.460,1.624,Keep Lane / Straight
+8ae3279f-f099-438f-a421-bdf7507c0efc,81.146,-0.013,Keep Lane / Straight
+7f35f461-0781-4c9a-8d12-1f1a5b08d12b,26.044,-2.372,Keep Lane / Straight
+6fbe456c-a7f0-4cc9-964a-0e4d0589788a,31.231,-60.455,Turn Right / Lane Change Right
+9dad2cc4-abe3-417c-872d-f33c0dabca55,37.111,29.598,Turn Left / Lane Change Left
+2c9ac0d7-873a-45ee-af8e-0600b134c705,148.684,0.250,Keep Lane / Straight
+4ca5b761-ffff-4b90-a2d1-4f042d76ece0,175.823,-7.925,Turn Right / Lane Change Right
+6c42262d-130e-41a3-8261-f1187566edae,48.099,35.519,Turn Left / Lane Change Left
+26313c09-4db3-4765-870d-2b7c1789fdfc,45.514,4.386,Turn Left / Lane Change Left
+bf94e780-a325-4397-8cc1-7faaee15f298,15.299,19.312,Turn Left / Lane Change Left
+85b13901-c8c7-41b5-b2d1-79c79b763481,31.836,3.739,Turn Left / Lane Change Left
+288de8b6-b533-4b45-a24f-4580a992f4b2,41.990,-14.943,Turn Right / Lane Change Right
+1c65810f-9f95-4056-817e-5b7dc9295c56,142.454,12.044,Turn Left / Lane Change Left
+552f54bd-24de-4d66-b0c3-121c778a8f17,18.215,-38.557,Turn Right / Lane Change Right
+b71b88f0-380d-43cd-a793-308515ac0b27,9.996,0.036,Keep Lane / Straight
+db223672-2d5f-4b09-89fd-c9a0e9cbd4b8,43.254,0.219,Keep Lane / Straight
+2e5311b9-463a-4904-bb65-8426d0677f5c,1.397,-0.001,Keep Lane / Straight
+7d8766f6-f4bf-465c-9b3c-64e8e2516d59,42.320,1.738,Keep Lane / Straight
+a73bf4ce-a509-450c-af11-a64baf567314,44.928,0.181,Keep Lane / Straight
+61b82718-f4b1-4540-9c2c-f1d1dd0aabb4,122.003,-0.044,Keep Lane / Straight
+cd9714cc-a380-4e19-85d4-56f987636a50,41.839,0.933,Keep Lane / Straight
+4b9425a4-b62d-425a-b712-aef303611702,61.411,-10.993,Turn Right / Lane Change Right
+bb4b1139-0bef-460f-9047-8ca61c79d929,122.697,-9.374,Turn Right / Lane Change Right
+fdf6957f-b53d-4c53-9348-47a52e6a8eb5,41.709,1.233,Keep Lane / Straight
+4b2a5584-eeca-4b80-8ee3-a5e677a895b8,53.744,6.078,Turn Left / Lane Change Left
+3c8c2e2c-fe99-43ff-9b26-cbd76e5b2ce9,110.829,-1.003,Keep Lane / Straight
+b36cdd8a-85ab-4d25-bf1e-d8af97af8fd4,67.419,-0.345,Keep Lane / Straight
+143da917-6de9-41c7-8fa4-9dab4dfff6c3,4.825,-0.011,Keep Lane / Straight
+e074f2fe-7579-44bc-9853-836b35802e1b,129.311,-17.456,Turn Right / Lane Change Right
+804f5603-e2aa-483d-a342-7619916da1c1,47.076,-0.796,Keep Lane / Straight
+da361397-73a6-4a38-9bb6-9e2dbdabea87,140.962,-20.652,Turn Right / Lane Change Right
+8bbc6bfd-387e-42d3-8ac2-f5abd2759c71,1.602,-0.027,Keep Lane / Straight
+c1e4502b-5ffe-400c-a69f-e53747228818,109.960,-3.279,Turn Right / Lane Change Right
+a1bce4cb-5116-406b-8f39-9157114dc278,4.309,-0.020,Keep Lane / Straight
+b4d874ff-2c33-4709-ab0e-d8acb3138856,84.858,-0.342,Keep Lane / Straight
+c8a35118-5289-4be9-85c6-629f2c64a4ac,16.157,25.748,Turn Left / Lane Change Left
+1270fddc-4a49-40c3-b435-48a8971e39f9,42.794,-1.519,Keep Lane / Straight
+0be14072-f51a-4df6-b4c6-ce2332e59ae6,74.919,-22.780,Turn Right / Lane Change Right
+34c6ae6b-be2f-4ad4-99a4-c8ed0741facb,23.351,35.835,Turn Left / Lane Change Left
+7ee09d09-a805-4f51-9ebe-5f06a0c5eb9f,28.990,-0.415,Keep Lane / Straight
+24b47ebc-f8be-4b2a-aac3-257af398df7c,67.913,-4.008,Turn Right / Lane Change Right
+20a99fd5-7b36-40e2-9f65-c14ed5ef6672,77.884,41.417,Turn Left / Lane Change Left
+2afe4490-e92c-44dc-ad76-18c6a2f43f04,4.157,-0.002,Keep Lane / Straight
+5d8c83c4-15b7-4e2a-b0f4-0139d19c76fc,36.097,42.439,Turn Left / Lane Change Left
+2414603b-c133-4068-9d93-16c2c4ca3f7d,104.198,11.600,Turn Left / Lane Change Left
+370590c0-6445-44bb-88ec-eb7c18ae9c95,74.423,1.435,Keep Lane / Straight
+6429ae60-58c1-4862-98f4-fc08e75c7a4b,122.573,-2.727,Turn Right / Lane Change Right
+64372218-a2b5-4361-a514-a03098b7f4f5,58.299,9.720,Turn Left / Lane Change Left
+06c9ee3b-f124-4f4c-91f0-caa8410d746d,77.534,-0.969,Keep Lane / Straight
+5f56d1d9-be0e-4978-8cba-4ed5503982bc,57.958,0.599,Keep Lane / Straight
+6112ebdd-bc78-4104-8adf-80a5c6c27b95,0.000,0.000,Keep Lane / Straight
+3ea6b6a3-acb3-4703-9be7-3c9f10cd1c6b,59.681,-0.232,Keep Lane / Straight
+48f64e45-3dc4-461a-b7d7-3899c7f9b9c9,18.217,-3.063,Turn Right / Lane Change Right
+8a263906-175e-48fe-becf-d5bd66156d09,162.603,41.394,Turn Left / Lane Change Left
+6a54c004-a52d-48f1-862c-0f7c0c95efa8,80.504,-0.536,Keep Lane / Straight
+b6cdad7d-446b-47dc-b875-e48bbc77cd64,30.921,-0.444,Keep Lane / Straight
+f167209d-388d-4daf-a8af-bbe898d5989d,149.098,1.631,Keep Lane / Straight
+d66b61ab-289c-4993-9bb7-487c6d7d916d,24.105,7.066,Turn Left / Lane Change Left
+c2cc0c0c-fa11-48c4-a47b-40a948ca8b99,21.557,0.236,Keep Lane / Straight
+3e524d19-23f5-415b-bf72-d36335084821,72.215,-3.013,Turn Right / Lane Change Right
+e1b75eb0-544f-4b73-a485-ba15f2bb7869,13.739,20.981,Turn Left / Lane Change Left
+9f09fb30-6000-4aea-b6ef-e4c3c5907f5a,16.085,5.641,Turn Left / Lane Change Left
+4b9f8115-3366-4100-bfcb-49c607a51186,101.919,-12.689,Turn Right / Lane Change Right
+5bed2b6c-dedc-4305-b6c2-ab1d8819dabe,0.000,0.000,Keep Lane / Straight
+d9a9ec53-430f-477b-909f-114663a05e57,150.358,-10.542,Turn Right / Lane Change Right
+12aaf7bb-923a-4ab8-be19-d1feb751300d,111.111,-1.154,Keep Lane / Straight
+40ae57c4-feb0-4b4c-97e4-a4fb2171eef5,87.982,-4.696,Turn Right / Lane Change Right
+aa64b1d2-de88-49d4-8b44-49ffe59859f7,55.335,-0.338,Keep Lane / Straight
+eb06f1fc-ddac-4811-b82f-145edf4b991b,0.419,0.000,Keep Lane / Straight
+2ebfd6fe-53a2-4827-a842-a325b03cb240,4.357,0.008,Keep Lane / Straight
+acef142c-befe-4f8e-a49a-04f3f35396e6,19.468,-0.954,Keep Lane / Straight
+473632fb-9702-42ed-92bb-13a7c0bff7e9,0.000,0.000,Keep Lane / Straight
+0d2d7815-84f2-4863-b318-473bd7103400,19.514,0.048,Keep Lane / Straight
+b04d2a40-3de2-4edd-8d39-753f1bbc99f7,69.789,-15.866,Turn Right / Lane Change Right
+fdef3d23-b2b1-4652-b402-0013da0d466e,43.090,6.272,Turn Left / Lane Change Left
+11c05c71-b358-4f17-8260-b0b024a1de4b,15.903,0.211,Keep Lane / Straight
+cd6d317b-1cca-4906-8853-6050ba534727,84.017,-0.336,Keep Lane / Straight
+68f8b567-99cb-4653-a38c-e0f17b0917cf,23.286,-0.135,Keep Lane / Straight
+6b84c3ec-d91f-4d2b-9391-63dbf66e8d8f,89.848,-0.532,Keep Lane / Straight
+d335c53e-5ca6-43df-b437-a1d83f60c534,21.974,-0.101,Keep Lane / Straight
+51468c45-b51d-4070-9dd3-ab30ee08fc21,155.123,2.530,Turn Left / Lane Change Left
+221203bb-b2cb-44a6-81cd-de0744c5618a,140.568,-32.598,Turn Right / Lane Change Right
+93419988-63e2-40af-99db-ec88a0f34a15,59.654,0.668,Keep Lane / Straight
+a16ccb91-4bdb-4f89-8a69-ee99cfa7f9b3,95.442,-17.737,Turn Right / Lane Change Right
+5dee7ce5-28d1-4810-b30e-fd73749c8e35,13.980,-0.450,Keep Lane / Straight
+0267f285-d3fd-4776-b0b3-d2a354a4c89d,8.876,-14.695,Turn Right / Lane Change Right
+55c4437c-7afa-43b1-b54b-32673d3c55b7,103.494,0.410,Keep Lane / Straight
+e05fa27c-78aa-47aa-8192-45755e45b11a,19.082,0.096,Keep Lane / Straight
+d87d60f8-66c9-4f71-9a29-f2669f1c2963,81.438,0.749,Keep Lane / Straight
+1648918a-bd4a-4ad7-9fb6-410d3e594341,49.895,5.452,Turn Left / Lane Change Left
+047608ad-1b04-4f0d-a5e4-90c82b5eb74f,11.779,3.216,Turn Left / Lane Change Left
+a4be61d6-099b-4380-8c32-ad176781b288,29.303,8.864,Turn Left / Lane Change Left
+78c9bc8a-351a-44d6-af05-555798e234ab,99.790,0.394,Keep Lane / Straight
+2d4e9c8c-c03f-46ed-91ec-353aae30d5ea,15.664,-0.133,Keep Lane / Straight
+305104db-ed4d-4ccc-87f1-4ed69dd30fd7,2.492,-0.002,Keep Lane / Straight
+983a8f84-01fb-4c65-b692-5a40880ca3ca,77.770,25.411,Turn Left / Lane Change Left
+92564556-9557-4b3e-a070-ba11bdda3aed,0.000,0.000,Keep Lane / Straight
+962d9e75-8c86-40c9-a57b-e7481f1692d4,19.450,-25.523,Turn Right / Lane Change Right
+d25128d0-de17-4f6e-bd2e-39db813c44d1,51.013,-18.198,Turn Right / Lane Change Right
+98913a48-4676-4fd3-8569-3a2983cb7ccd,87.201,4.797,Turn Left / Lane Change Left
+8f4c7c08-a328-406f-97ac-e6f64491d438,58.075,0.664,Keep Lane / Straight
+a705e920-ccc5-4d82-810e-c56699b13649,64.493,-1.771,Keep Lane / Straight
+9ed113ec-12e1-4bc1-946c-6fec04e13c8e,37.760,23.376,Turn Left / Lane Change Left
+552b6d3d-3d0a-485a-a9aa-e851023a8eae,155.181,1.857,Keep Lane / Straight
+51d5a31f-1f1a-4c0d-84ec-1f71d15e754f,87.305,-1.136,Keep Lane / Straight
+0d941ff8-079d-4b07-9e47-7b184783f0b5,49.469,-7.037,Turn Right / Lane Change Right
+729ce57b-dfeb-44e1-bde2-fca4106b0789,0.000,0.000,Keep Lane / Straight
+47fdae07-b5b2-40d2-9738-7a42754aaacc,17.642,0.148,Keep Lane / Straight
+09c88d76-7c23-4372-88f6-85b777e3e798,49.494,6.093,Turn Left / Lane Change Left
+b6221d00-653a-41f8-9e33-31e63337d5d3,0.000,0.000,Keep Lane / Straight
+48cf8ecf-d9d4-416c-b5fb-48532b209cf0,0.000,0.000,Keep Lane / Straight
+1474c64f-a05a-4f8d-9cf6-0ac0004f2911,172.300,2.710,Turn Left / Lane Change Left
+2ff0eef3-fdb9-4334-8096-1df3c4cd86f4,51.831,-22.041,Turn Right / Lane Change Right
+d743e736-2a0b-4ce4-aa7e-f63b2c852d53,30.851,-13.348,Turn Right / Lane Change Right
+60cb368d-5bc4-4aa8-962b-d017ee49096f,41.375,-0.233,Keep Lane / Straight
+ad0e3cbb-17ad-4f09-933a-d4ed0c1a1588,29.747,-32.855,Turn Right / Lane Change Right
+3136e709-948f-4a0d-8f0d-634a5b2a5a43,79.652,-0.442,Keep Lane / Straight
+87d29d3a-f9b7-438d-8b63-c6057a5aab1e,55.547,-0.477,Keep Lane / Straight
+66c6e1d3-f5db-42a2-8cb5-c4df9fee9131,65.371,0.246,Keep Lane / Straight
+f3ab8ce2-f0bb-46b3-8fe6-6e8452213244,38.984,1.316,Keep Lane / Straight
+988aaccb-16db-4212-8aa2-a30f10e3e213,0.459,0.000,Keep Lane / Straight
+8b40f407-1314-4cd6-aad4-b147e2bd384a,119.021,-1.262,Keep Lane / Straight
+9fb66743-5006-4f93-bc7f-ec7f926b575a,0.000,0.000,Keep Lane / Straight
+32fdb66a-54e8-4b4b-b07c-20b50e117d9e,115.136,-9.198,Turn Right / Lane Change Right
+a062d833-1ecc-489f-b263-1f1ac333e759,14.462,4.630,Turn Left / Lane Change Left
+4784a0bb-fd3f-484e-9e26-f9a2433b0d62,49.846,0.162,Keep Lane / Straight
+568c8ad8-659b-4ad4-b385-7721b500efda,22.140,2.700,Turn Left / Lane Change Left
+d0863cb5-9148-46a2-904e-9832cc04a669,17.086,0.003,Keep Lane / Straight
+17e117ed-b03d-4de1-8ce6-1d0a4f1ad57b,8.553,-4.726,Turn Right / Lane Change Right
+50273893-9f71-4a13-8946-4e693a9179b4,65.154,-4.870,Turn Right / Lane Change Right
+1176341a-a21d-4952-93a7-f400bde8b136,15.700,-0.028,Keep Lane / Straight
+16016235-e97a-45d0-9d01-4bab834398df,0.000,0.000,Keep Lane / Straight
+2a0ec5c4-2244-4902-a7e6-d10ecbdc6c89,62.320,-0.270,Keep Lane / Straight
+5fee9fce-4ccd-40e0-996d-1d60199a98e8,2.738,-0.006,Keep Lane / Straight
+d85cacad-9dee-48ab-936b-51fe0783e705,109.407,1.428,Keep Lane / Straight
+518aafa7-76c6-4892-9e29-4a54dd49e913,71.305,-22.207,Turn Right / Lane Change Right
+092f739b-d7c9-4cd5-b583-031fe57f30ba,96.112,25.248,Turn Left / Lane Change Left
+ebbbb34e-3289-4f5a-a7f0-8a6cd496695d,8.529,0.058,Keep Lane / Straight
+001a5a28-732e-4a47-ad1f-519d309121e0,37.496,38.257,Turn Left / Lane Change Left
+5ec9d676-e95d-47a7-a2a8-47d069817e50,53.438,8.270,Turn Left / Lane Change Left
+a6bca5d9-0b11-4fd8-9fed-ec27c19cc742,92.905,-0.169,Keep Lane / Straight
+088b157d-7de4-43e1-aa77-2bf817df28e2,163.963,-0.134,Keep Lane / Straight
+677bfa31-5b24-4d57-95a8-44d59a45a21a,14.412,39.324,Turn Left / Lane Change Left
+192eef4f-a77a-4122-8dfc-f4df761f3cc0,31.163,0.388,Keep Lane / Straight
+0d6f6ddf-67d4-4331-82f3-ed9452044a1b,98.216,11.910,Turn Left / Lane Change Left
+1a25a613-182e-4150-9600-31da786220a5,0.000,0.000,Keep Lane / Straight
+1d9d0602-23ea-4dc6-917f-7404eec17e57,0.000,0.000,Keep Lane / Straight
+bcc8c619-bcc1-4207-9ceb-2a454d020300,178.678,3.417,Turn Left / Lane Change Left
+4b1f0c8b-ff3e-4af7-bf8e-859c5c91aa32,21.200,-0.052,Keep Lane / Straight
+0b379596-0bc2-4a43-9c18-7ced1f2439e5,12.176,30.126,Turn Left / Lane Change Left
+538881ee-00e6-4b8a-8a2b-cc61f7bdbd8d,108.708,-3.763,Turn Right / Lane Change Right
+e289d029-e331-4f4c-93c3-a00058731d38,60.612,-9.689,Turn Right / Lane Change Right
+d8646577-8f17-4880-b842-7e04ec819b0a,54.079,0.239,Keep Lane / Straight
+3a468f86-1c26-404d-9fab-416b3167a041,121.393,6.325,Turn Left / Lane Change Left
+cd283bc3-f81d-4700-bde9-e2e4817cf3b9,146.533,-1.114,Keep Lane / Straight
+2c012b1f-283d-4d42-9bc2-1caf7c400446,17.967,18.229,Turn Left / Lane Change Left
+3f4a9496-3ee6-407c-acf0-dff2463ec145,35.636,-0.127,Keep Lane / Straight
+67727101-9121-4caf-b99f-f0b5f53ed54a,64.115,-2.571,Turn Right / Lane Change Right
+7336b6c8-6dad-4e2a-86b5-60277b4cdccb,31.740,1.206,Keep Lane / Straight
+ea965237-a17e-447b-b856-ff21a159f439,16.996,0.393,Keep Lane / Straight
+68a48881-2037-4b6c-ad4b-220c918617a7,19.585,0.007,Keep Lane / Straight
+86a960a0-97f4-4505-afda-20b423c176fe,39.178,4.965,Turn Left / Lane Change Left
+39640b40-a1ad-4deb-9b49-654f42af9488,31.280,2.873,Turn Left / Lane Change Left
+9b2508bd-fcc9-406b-ad93-a9f1ff051875,15.591,0.005,Keep Lane / Straight
+963b05f7-c7da-41d6-a391-1d99a59aee8a,145.540,-6.430,Turn Right / Lane Change Right
+dafebaa9-cb74-4076-aefb-210b77dbfb03,28.506,-0.045,Keep Lane / Straight
+2c124fd9-8fb4-4222-9a54-a5dd12edc4cd,29.477,-0.846,Keep Lane / Straight
+3c0ff6df-f5c0-41be-aecc-a3f3c73a048b,37.659,4.016,Turn Left / Lane Change Left
+990bab7a-2749-4350-90c1-746b30c944e3,92.476,0.178,Keep Lane / Straight
+60e4f283-c582-44aa-b67a-7844e413709c,71.977,1.870,Keep Lane / Straight
+9593b7ad-9dec-46df-9c04-16cc5b008b03,6.418,-0.010,Keep Lane / Straight
+da9302e4-5bb8-43cd-97aa-913b617e6374,83.751,-43.378,Turn Right / Lane Change Right
+e3bf10db-d822-4ee9-bdaa-4f5325c4e1b6,79.438,0.441,Keep Lane / Straight
+e2c17529-0981-4d54-a1d5-d6de7ebe19ae,20.736,0.154,Keep Lane / Straight
+9e9d7a30-83f5-4bf8-bbcc-9fda2ed23bdb,12.760,-0.973,Keep Lane / Straight
+1d1ecb9e-7078-45fe-bb47-73550f37a7a7,150.781,-1.785,Keep Lane / Straight
+093ff8e2-f53e-4a39-b899-8775cf63e1b3,53.015,0.738,Keep Lane / Straight
+3d3b14e5-c6a0-44cb-9093-456a7fcd303c,33.554,49.437,Turn Left / Lane Change Left
+7cc18815-304c-4ac6-afde-7f8c955b9743,47.332,0.056,Keep Lane / Straight
+979010ae-71d4-4afb-a984-0dc1dc7b2897,103.098,-5.187,Turn Right / Lane Change Right
+ca2b0695-a164-44be-a2d1-9c0684498b83,5.706,-0.003,Keep Lane / Straight
+9849f7cd-19a7-4c59-80c0-521ccb888503,3.712,-0.009,Keep Lane / Straight
+586176f7-ba0b-4a35-ad91-1ee40dfb64e7,166.304,1.052,Keep Lane / Straight
+743b2dfb-a93a-430b-a989-b56fd5cbe6fd,80.204,-0.415,Keep Lane / Straight
+0cefe21b-1930-421c-a35b-478f19426567,99.403,-3.060,Turn Right / Lane Change Right
+a23d3cb5-95ea-4502-b5f1-481762bc55d2,44.944,0.593,Keep Lane / Straight
+95a0324e-4aa6-49c1-91b2-21f12d72e5c5,3.072,-0.008,Keep Lane / Straight
+5a65c412-6fe0-4e48-98b5-ee20e7227fc7,75.686,1.906,Keep Lane / Straight
+a03885db-7207-4980-9079-8787e4258ea7,52.481,-2.787,Turn Right / Lane Change Right
+1e7c8a26-27db-49d8-8fab-7c9806f1679e,166.529,-11.631,Turn Right / Lane Change Right
+e2ba72bf-6b02-4791-9ef9-2f1f01eba534,85.416,0.756,Keep Lane / Straight
+8c2197c6-2371-4678-aec3-4e7e4d70155d,22.709,0.009,Keep Lane / Straight
+fb4a4fa3-b178-4de2-9f4a-1ce495897218,27.691,-1.026,Keep Lane / Straight
+8ef9382d-7f65-4d43-b168-900e6c29c6a4,10.488,-1.717,Keep Lane / Straight
+3b9ebc5e-59d7-425e-89a2-c3c7db92000b,15.187,-0.706,Keep Lane / Straight
+ec3d6102-29cb-413a-b245-ab7ca4c6290e,94.875,-19.575,Turn Right / Lane Change Right
+7cf7a0da-9cd6-4f60-9cb8-b8501b87a8ff,63.123,-0.331,Keep Lane / Straight
+07510b1e-fbe7-424a-903e-fd752588a6b1,33.862,-5.458,Turn Right / Lane Change Right
+b624caab-67d2-4be1-b67a-41cfe32a32b2,45.210,-53.328,Turn Right / Lane Change Right
+cf96c000-08ef-447b-8e6c-9bea0ada1ea5,10.812,-0.058,Keep Lane / Straight
+4997da6d-7924-48e7-8b87-63192c7c06b1,78.094,-4.034,Turn Right / Lane Change Right
+a8c6f6c5-e59d-4f32-9ee2-ba1f09e0231d,0.000,0.000,Keep Lane / Straight
+9991f0b9-c2f3-4c9c-948e-57ebe5d7ea51,54.656,5.658,Turn Left / Lane Change Left
+c397bc25-a39c-4c7d-8718-16fdc196237f,89.959,-0.507,Keep Lane / Straight
+31da346f-de66-4609-b42e-908c130cacb4,111.455,-27.738,Turn Right / Lane Change Right
+de71709d-4ff7-415d-a6bc-2b650334783b,24.507,13.383,Turn Left / Lane Change Left
+86e1a024-6b11-4534-86bb-9cb9bbfcf500,29.146,0.607,Keep Lane / Straight
+bb3347c8-ff8b-4998-a50d-9fa434e148fe,110.174,1.071,Keep Lane / Straight
+af7e7e31-3541-447a-ba75-e3da548bdae4,71.008,-5.689,Turn Right / Lane Change Right
+73921211-5a5c-4c70-8907-3fd79c51c962,0.000,0.000,Keep Lane / Straight
+5e5e7a0e-d352-49ce-a644-483c6381a267,115.445,-5.669,Turn Right / Lane Change Right
+aa7f3ffb-1af8-49ab-97c4-2322e4c8a938,88.942,-2.715,Turn Right / Lane Change Right
+3e539b42-6dcc-4c05-bada-b38626a96714,47.676,39.826,Turn Left / Lane Change Left
+0da63ac7-b953-4e7f-8285-a71dd1e9c7b1,80.522,-3.226,Turn Right / Lane Change Right
+1973e4f4-6e89-41c3-9b2d-1fa21e349f85,83.848,0.737,Keep Lane / Straight
+d7525bff-5cb3-4149-bb91-f584b342b9d5,38.523,0.632,Keep Lane / Straight
+6b798896-2748-4639-ab2d-aa0758682bc8,190.323,0.425,Keep Lane / Straight
+0da5339f-4fae-4489-9a73-9832c6cc30be,0.000,0.000,Keep Lane / Straight
+23a439c0-a24a-4faf-9fb1-a1cb3c6ab54a,76.578,-0.221,Keep Lane / Straight
+40898d42-5e80-405e-8a88-e2ae195ad0db,41.910,-0.212,Keep Lane / Straight
+5a64727c-f18e-4458-a6ea-39504862834f,85.849,0.270,Keep Lane / Straight
+9eadcdb0-47b9-4f42-8a23-7db981c27cc4,78.747,0.166,Keep Lane / Straight
+359f0de2-5c75-49a2-b939-b12263f7b588,68.222,-0.364,Keep Lane / Straight
+55fe7db8-2125-4363-93d7-e9e1d0592a0b,90.410,28.409,Turn Left / Lane Change Left
+f4c593f8-8bf6-48a3-bd36-75a598e613a4,0.000,0.000,Keep Lane / Straight
+e5b7cd79-be3c-449b-a3bc-26c54b830198,30.554,3.598,Turn Left / Lane Change Left
+12fd88ad-45e2-42bd-8a1f-341e9cd151e2,23.411,-31.160,Turn Right / Lane Change Right
+65cb292f-1e45-4b22-b1c1-2617fb452baf,22.493,-0.985,Keep Lane / Straight
+a11b4919-cac8-476d-ab0b-99bb3bc938a6,47.191,-0.184,Keep Lane / Straight
+4be6ff46-4705-47a3-a606-298437c3b71d,22.302,-0.009,Keep Lane / Straight
+317e374e-e98f-4820-86c6-734fceb90c6b,67.023,-3.362,Turn Right / Lane Change Right
+42f0d2db-7565-421f-a37c-9eb415c7dcf5,214.855,-23.641,Turn Right / Lane Change Right
+85a577bf-0ea0-4959-bc38-a189df175876,73.603,-1.080,Keep Lane / Straight
+936163ba-1932-4de0-aa42-dcc2a1b5368a,134.589,23.902,Turn Left / Lane Change Left
+33bfb47e-c0ef-4d24-ae8b-f55f6b5f596a,74.792,1.652,Keep Lane / Straight
+e63918e2-25af-4f63-8cb0-3e7847a1628a,3.547,-0.001,Keep Lane / Straight
+960bcc9f-015f-4b4b-a2c7-6605cbcecbb1,5.380,-0.478,Keep Lane / Straight
+cc45341e-13d3-4bd5-a50f-44165ba3e34d,18.227,42.547,Turn Left / Lane Change Left
+69d4cf96-3c2a-45ea-810b-f5cc823ad59d,22.219,26.577,Turn Left / Lane Change Left
+d6ccf617-1363-4c0f-a579-9d7d39c6ab0c,17.160,-0.137,Keep Lane / Straight
+597ab1dc-12d0-4576-988a-8846b53fbcc4,0.000,0.000,Keep Lane / Straight
+036f4620-9a87-430e-8b75-f66229702727,71.866,-0.514,Keep Lane / Straight
+0987bbd1-6c38-477c-a31a-ac87c39294b2,44.515,-0.837,Keep Lane / Straight
+fc3928e5-49d0-4af9-86d5-4317d9313022,8.297,0.058,Keep Lane / Straight
+169d74f6-99f6-4f65-8352-b43bc6e80520,0.035,-0.000,Keep Lane / Straight
+aeb93a5e-ffd5-4c86-92e0-34d976889bdb,46.259,11.694,Turn Left / Lane Change Left
+a99914bf-fdf2-4763-8cda-fe2d10db6bb1,37.558,2.371,Keep Lane / Straight
+ec9d4d89-5e33-423e-9f2d-4e63c23fa6f5,144.917,-1.095,Keep Lane / Straight
+40438896-641c-4b67-80c6-af29208dfa6c,87.806,1.482,Keep Lane / Straight
+8a37b295-d678-48ca-bd03-c2c1f39b490a,19.210,22.438,Turn Left / Lane Change Left
+0df37f51-10e7-43bb-b5f8-8ea08f9d9323,107.914,-1.776,Keep Lane / Straight
+c9c18f64-af95-4b11-b2db-c6370d51ed53,86.806,-25.714,Turn Right / Lane Change Right
+fbff53bd-347c-4063-9133-7330e1bfb681,96.980,0.631,Keep Lane / Straight
+30604ced-d001-4220-9bc4-cb459c383f1d,55.940,1.673,Keep Lane / Straight
+df68460c-df3f-4f97-8b5a-5ce42265f524,16.223,17.009,Turn Left / Lane Change Left
+f9fb2973-6767-49b7-8727-65548eb6b352,0.000,0.000,Keep Lane / Straight
+7b9e1001-3495-4d41-8531-7a028778197f,231.946,-7.832,Turn Right / Lane Change Right
+9961f2f5-2c72-4e5f-85d8-3802a46bfbe2,92.236,-0.625,Keep Lane / Straight
+d5aad666-19fc-4c5c-a4f0-0eeb47f04112,51.091,-2.405,Keep Lane / Straight
+7963e45b-b8b7-4d44-8372-5126667257d9,61.812,0.516,Keep Lane / Straight
+65a9420c-135a-4de1-a27b-167d406e472d,61.555,-24.898,Turn Right / Lane Change Right
+1a90a785-cdeb-4c22-9000-9055fc0ab1f9,124.585,1.927,Keep Lane / Straight
+7c2a6a8f-29f0-41d3-8c34-a3bd7b848afe,67.585,9.773,Turn Left / Lane Change Left
+5b00d347-1824-4cd0-8bb6-bb10c112dcca,33.278,-0.278,Keep Lane / Straight
+de0720a6-6dbe-466f-ad59-9d5b50bf934c,124.484,3.565,Turn Left / Lane Change Left
+524954f9-aec4-466a-a882-278ae0c5daf3,25.681,-12.038,Turn Right / Lane Change Right
+593a6e22-a589-47f5-9a33-f1acb4920a3d,47.194,0.726,Keep Lane / Straight
+befce82f-b735-4435-a3d6-fee0f14be54a,21.729,55.427,Turn Left / Lane Change Left
+71854992-7e0b-4441-8e86-5927471f824d,61.814,-1.374,Keep Lane / Straight
+477472bb-f4f1-44bb-a921-f606f9a96d2c,34.812,-25.968,Turn Right / Lane Change Right
+47b186c3-a211-4e94-bd96-f6ca49aa885c,38.204,-0.214,Keep Lane / Straight
+198d0f76-5ef2-41c6-ae9b-bd62cccf7d46,45.287,-0.340,Keep Lane / Straight
+6112e5aa-39a6-4060-a5e6-c046edcacd12,47.368,7.616,Turn Left / Lane Change Left
+899779d8-c67d-428f-9b82-1fc67973682c,76.998,-0.791,Keep Lane / Straight
+27dfeb2b-f510-4d64-8388-47d6921fabef,11.627,-23.246,Turn Right / Lane Change Right
+2c4221f6-1835-44a8-a89b-6b4a749266eb,57.436,0.362,Keep Lane / Straight
+f660f275-27b5-4e95-9eee-aa5bfce20a9c,41.039,0.870,Keep Lane / Straight
+8fc5cc1d-5693-419f-aad1-7c09bd823902,100.064,0.063,Keep Lane / Straight
+54503409-c6ad-48eb-aac9-fefc86634891,83.497,0.539,Keep Lane / Straight
+562d887d-8816-4bb3-bbf2-168b47f93ffa,100.941,-2.534,Turn Right / Lane Change Right
+0959ce6f-5edf-4463-b1a3-8506b998a6f9,93.253,16.120,Turn Left / Lane Change Left
+cb8237ba-8db1-48c3-904d-02e6076f30fa,36.251,35.389,Turn Left / Lane Change Left
+521586ff-212c-4563-90e2-042c6e9464f0,67.656,0.545,Keep Lane / Straight
+acaf155e-4fe9-4a37-bf35-262f3afa44f0,64.912,-27.055,Turn Right / Lane Change Right
+4fc90e8a-9c6e-4403-97f0-801c31366f90,19.630,-29.965,Turn Right / Lane Change Right
+65d1c4fd-e4af-4f31-aae1-63276909e6ea,27.813,-28.389,Turn Right / Lane Change Right
+250e67be-e12c-4dcd-bafa-42814a3ad54e,34.567,-2.770,Turn Right / Lane Change Right
+66e2783e-3220-462c-a74d-efae54a59186,83.885,-1.403,Keep Lane / Straight
+b826ced0-0ab1-4ac3-b6eb-3a9fcc3e310a,108.143,3.649,Turn Left / Lane Change Left
+08e355f3-229b-4079-8601-b8adf9345e5f,79.273,-1.747,Keep Lane / Straight
+23340bf6-0d32-43df-9bbd-e5680cbdd79b,19.559,31.429,Turn Left / Lane Change Left
+5205afe5-e29a-45ee-9424-5d9d4ce19700,81.641,1.561,Keep Lane / Straight
+75baf3cc-4e25-4778-b290-0375a363bb89,104.736,0.148,Keep Lane / Straight
+cc710f1f-e195-4e55-949d-9151e9120f52,68.781,-4.590,Turn Right / Lane Change Right
+7d4a74d5-1495-473a-9f8b-533913cccd28,29.866,0.105,Keep Lane / Straight
+77c8cb41-5e11-49e4-a19c-eb6ff48f94ec,22.280,-10.298,Turn Right / Lane Change Right
+198626bd-4c55-41c8-a4d8-a1b02bbdde90,56.149,-3.796,Turn Right / Lane Change Right
+946314c5-3707-4ee5-896a-b4c4015f2c14,15.175,20.316,Turn Left / Lane Change Left
+76ed26b3-4458-4577-9dc5-d80e238b7c21,50.570,-2.079,Keep Lane / Straight
+b4416d05-b142-44ea-8303-58de432185ee,18.358,-0.062,Keep Lane / Straight
+561930ad-1b03-4fad-9501-10b1f78a9a76,-8.011,6.093,Turn Left / Lane Change Left
+5dcbd4d6-21e6-48a1-9f94-c5821443bc30,82.071,-22.759,Turn Right / Lane Change Right
+15b69fd8-e3c2-4c4b-bf60-7e3660c05588,16.795,-0.010,Keep Lane / Straight
+4166826b-a9e3-499c-969b-4a23488c0173,0.000,0.000,Keep Lane / Straight
+b5ba2e4f-aa0b-4787-b6db-1bd83226b55a,35.170,0.098,Keep Lane / Straight
+2bc76e3f-c726-48ef-994e-34ccade66ad8,61.520,-0.174,Keep Lane / Straight
+af23fdd8-9cab-4a19-9773-334569b926fd,0.000,0.000,Keep Lane / Straight
+1649a1c3-b2df-4bf2-9541-536e93b82890,61.322,0.210,Keep Lane / Straight
+2bd1b017-02b2-4129-ab68-694666095b49,22.541,0.698,Keep Lane / Straight
+705ade31-589a-4951-8f13-bd27c8e4019a,0.000,0.000,Keep Lane / Straight
+ff6682dc-7bd3-42d6-ab54-3ad5a74b8e7e,55.608,-14.628,Turn Right / Lane Change Right
+f1c1917f-04cd-4bb3-9608-635d7c930710,69.017,0.527,Keep Lane / Straight
+96d06637-9a64-4b88-a987-05d9eb62e0cc,95.777,-1.329,Keep Lane / Straight
+2b377cc0-2549-47b8-b247-b623f5541160,76.271,-2.327,Keep Lane / Straight
+25eb183b-8b08-4322-9a0a-ee4b5e1df512,23.907,31.609,Turn Left / Lane Change Left
+275e392a-0812-45e3-8be3-45860a15af06,93.532,0.665,Keep Lane / Straight
+c31ed4b9-72bf-4e60-92b6-537f2a4182c9,43.207,-1.062,Keep Lane / Straight
+a91a777e-4cd1-477e-8362-a16903ec000e,62.742,-7.662,Turn Right / Lane Change Right
+32c52e27-d3fc-4ac0-9751-5c963a4d819e,45.487,14.136,Turn Left / Lane Change Left
+ec210d62-3ba8-444d-8707-e8962caf411a,95.985,0.363,Keep Lane / Straight
+d3c832f2-c0af-4031-9550-36dae95111e1,21.969,22.190,Turn Left / Lane Change Left
+3cfb9b20-edb6-45ba-bb92-6105b70a322a,80.408,-0.593,Keep Lane / Straight
+daf334b8-332e-47a6-bef9-bb6c4e5f1a53,92.266,-1.144,Keep Lane / Straight
+9dae4231-e32e-4979-9c93-24f7b3f5ae73,125.891,0.824,Keep Lane / Straight
+0a967375-2bbb-4fc2-a4c7-0383b9bc8722,65.058,0.278,Keep Lane / Straight
+8f5ba44c-13de-4565-8c92-12b78d67ae4a,1.760,-0.000,Keep Lane / Straight
+e311c7ca-10cf-4833-b47c-a470b4673f8a,14.771,1.470,Keep Lane / Straight
+bcae6e17-1c18-4d16-b43a-6be43ecf895e,168.902,1.581,Keep Lane / Straight
+cedf22a5-7610-4451-a6a1-43fbddc0c736,42.085,18.463,Turn Left / Lane Change Left
+5338ba58-0474-4e48-8deb-865d1a8a1539,169.890,0.645,Keep Lane / Straight
+a939ca3f-93af-457f-b226-f8796bb68113,133.507,-0.118,Keep Lane / Straight
+3d3ffb48-2684-4eae-96c6-dd5a4065430e,50.845,0.235,Keep Lane / Straight
+b3a0c6f3-4058-442b-ad29-c4594094e958,40.372,1.621,Keep Lane / Straight
+39a114ac-6fc4-488d-9698-ccbbb4dd37da,0.327,0.000,Keep Lane / Straight
+d7efcc96-ee83-47f7-a648-4e9fdff9bdd4,15.894,-3.633,Turn Right / Lane Change Right
+90a4b39e-8808-4449-b676-da468777b428,40.987,1.763,Keep Lane / Straight
+23d1b8f2-116a-4122-b59a-71e1c5f12b46,0.040,0.000,Keep Lane / Straight
+292c139a-2c66-42e5-8147-7162ccc4ef6d,22.068,15.217,Turn Left / Lane Change Left
+7751e444-3cad-43bc-b8ca-1010e3682664,84.416,-0.447,Keep Lane / Straight
+47ff4655-ab33-4cd5-af5a-609bd35d2aea,77.215,0.304,Keep Lane / Straight
+4881f65a-cf94-4977-af3f-1deb482139c5,16.445,-0.188,Keep Lane / Straight
+3b15fd6c-8f8f-497e-aa63-cbf9309c91f7,15.853,-0.038,Keep Lane / Straight
+4dffc12f-23a1-4f0f-867f-17c4980200df,10.093,0.022,Keep Lane / Straight
+c64b3195-9b64-4681-b9ae-62041d4a67c4,133.153,0.353,Keep Lane / Straight
+a201961b-7027-4c50-b4bd-a772e568c933,102.700,1.165,Keep Lane / Straight
+ba33959b-0abd-48d5-be32-b16430c844b4,58.803,10.861,Turn Left / Lane Change Left
+86b480df-5333-4fc5-89ab-db40844e063a,53.759,-1.651,Keep Lane / Straight
+5dc76cc2-45b3-4106-b52f-f8b1bebcb784,118.104,-0.921,Keep Lane / Straight
+b82dda1d-9104-45ba-a8ce-7e93b1504be3,28.319,-62.700,Turn Right / Lane Change Right
+01658cd0-4481-4a38-9c62-8d8e2c03c4e2,12.240,0.117,Keep Lane / Straight
+4346c28e-f8f7-4ba1-ac8c-6d9e5378319d,35.201,3.242,Turn Left / Lane Change Left
+b77b6120-b06a-4248-9a29-397d001ce3fc,100.724,0.199,Keep Lane / Straight
+9faa3b94-9ed2-4759-ac04-f379062a8a14,53.738,1.694,Keep Lane / Straight
+66e55358-72c2-49af-b146-e52a342d0ca8,100.029,-1.354,Keep Lane / Straight
+8f703093-8f81-4baa-88d1-1618a0f228c6,5.892,0.004,Keep Lane / Straight
+f4ad2e07-96be-4ca3-80de-e5849ba071f0,1.281,-0.000,Keep Lane / Straight
+f54d71c2-f659-4f5f-ae24-d9f246e9db6b,26.142,-0.418,Keep Lane / Straight
+48a9fcaa-7a58-45c1-9b90-a73ddc3d1027,49.183,1.772,Keep Lane / Straight
+34cc2bf9-8d4b-4f68-9bcf-098167ce31ae,95.716,-0.158,Keep Lane / Straight
+1773b719-9167-43da-aa66-1e02cb7784dd,31.429,-12.684,Turn Right / Lane Change Right

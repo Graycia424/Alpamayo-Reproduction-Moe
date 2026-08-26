@@ -1,0 +1,37 @@
+📊 EVAL_DECODER_EXPERT_RESULTS.CSV - 大型专家评估统计摘要
+
+文件路径：trajectory_moe/evaluation/eval_decoder_expert_results.csv
+生成时间：2026-04-23
+
+📌 数据集信息
+  • 描述：大型专家（28层, 3584-dim）验证集评估
+  • 样本数：2,805 个 （与基线Decoder相同）
+  • 数据形式：chunk, clip_id, t0_us, min_ade
+
+📈 性能指标 (Min ADE)
+  • 平均值：1.685041 m （相对基线差 +94.8%）
+  • 中位数：1.216379 m
+  • 最小值：0.080478 m
+  • 最大值：19.347637 m
+  • 标准差：1.561450 m
+
+💡 用途
+  用于评估未经微调的大型专家的性能。
+  这代表MoE中一个专家被单独使用时的性能基准。
+
+📊 性能对标
+  • 基线Decoder (28层):   0.8652 m
+  • 大型专家 (28层):      1.6850 m (差 +94.8%)
+  
+  说明：虽然大型专家和基线Decoder参数量相同，但性能明显更差。
+       这表明大型专家需要通过MoE框架中的路由和其他专家配合才能发挥作用。
+
+⚠️ 关键观察
+  • 单个大型专家性能最差（1.6850m）
+  • 这说明MoE中的分工至关重要
+  • 三个专家共同工作（1.1134m）优于单个专家
+
+🔗 相关文件
+  • eval_samples_results.csv - 基线评估
+  • eval_moe_results.csv - MoE完整系统评估
+  • eval_light_expert_results.csv - 轻量专家评估

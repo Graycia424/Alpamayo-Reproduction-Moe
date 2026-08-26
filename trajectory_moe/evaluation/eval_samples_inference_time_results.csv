@@ -1,0 +1,200 @@
+chunk,clip_id,t0_us,min_ade,coc
+101,0f2fd927-920c-43b2-9d7f-c13804cc2ea5,6000000,0.05633686,Stop at the stop line since the straight traffic light is red.
+101,2bb9145c-1ccd-4ec1-bbc5-d93da429177a,6000000,3.424062,Keep distance to the lead vehicle to maintain a safe following gap.
+101,3d4e4a25-b5e7-4a17-8503-d848c3b9c25f,6000000,1.5542215,Stop due to the stop sign at the intersection
+101,bf857dfc-7809-45d0-b3ea-d9a6b5624073,6000000,0.03268154,Stop to keep distance to the lead vehicle.
+101,6f909160-12b5-4cd0-b1d0-fdbd7cca32ef,6000000,3.9523606,Keep distance to the lead vehicle because a car ahead is in the same lane
+101,683969f9-9510-4cce-9ffe-214c95dd4eaf,6000000,0.25089127,Stop due to the red traffic light
+101,084263c3-5c64-415f-b468-70686460b9ba,6000000,0.90995,Nudge to the right to increase clearance from the oncoming vehicle.
+101,fe17315f-8f36-47ec-9735-91d1e07b5d49,6000000,0.9865799,Keep at the center of the lane to continue driving since the road ahead is clear.
+101,ec3ef048-248f-42ee-bd6d-d28e597b48dc,6000000,2.821874,Keep distance to the lead vehicle because it is directly ahead through the intersection.
+101,18a6bc36-569c-4af6-98b5-fafb715374b2,6000000,0.70140064,Slow down to maintain a safe following distance from the decelerating lead car ahead.
+101,7d0ab670-509c-4fd5-a3f1-e2431ed5b643,6000000,0.35785612,Stop to keep distance to the lead vehicle.
+101,5a74106c-4d3e-4a18-ae52-683ef9fb2527,6000000,0.8007053,Nudge to the left to increase clearance from the trash bins encroaching into the lane.
+101,9ecfcd4d-5c08-4f75-a59c-43ede6b0c8c2,6000000,1.6781161,Keep distance to the lead vehicle since it is slowing ahead.
+101,2cc36be7-ddd3-4fab-af87-2369e877b029,6000000,1.2691422,Stop at the stop line since the straight traffic light is red.
+101,4594d3a0-838a-4623-963b-6234117035e6,6000000,1.0285803,Stop for the red traffic light.
+101,75a67bd3-0528-424a-b0f5-4706068117ab,6000000,0.50782216,Keep at the center of the lane to continue driving since no critical agent needs attention.
+101,d429ba5c-d2af-49cf-b7d7-b308ba9d2f8d,6000000,7.923504,Keep distance to the lead motorcycle since it is directly ahead in the same lane.
+101,94c294af-9d00-40f3-be64-56372dc42991,6000000,5.787652,Keep distance to the lead vehicle because it is moving slowly ahead.
+101,bd5c4eaa-413d-40ca-9b6f-d34237efad99,6000000,4.879506,Turn right at the intersection since the right turn traffic light is green.
+101,83fbc5e4-0e09-4b4d-8476-7cce54c309e2,6000000,1.1025845,Keep distance to the lead vehicle since it is ahead in the same lane.
+101,b56ba7c4-fc07-4a1d-a58f-50b18993b428,6000000,1.6524334,Nudge to the left to pass the trash bins encroaching into the lane.
+101,a9ba11ad-1518-4583-88a4-0e2d72b24419,6000000,4.8474374,Keep distance to the lead vehicle since it is directly ahead in the same lane.
+101,caa59932-3a8e-47d5-9d63-153926b88863,6000000,2.1429844,"Maintain lane and wait for a usable gap to change to the right lane because a vehicle is traveling alongside in the adjacent right lane, blocking the merge."
+101,263776a7-3c50-4800-8089-54d199c75b6e,6000000,2.2327483,Change to the right lane to keep right and maintain progress due to a clear adjacent lane and no slow lead vehicle ahead.
+101,64b1a40f-92e3-4463-8a08-1dda6e8091df,6000000,1.1466794,Decelerate to prepare to stop for the red traffic light at the upcoming intersection while maintaining the current lane.
+101,433f136c-6cad-4c87-84e8-a5ecf8bf830b,6000000,2.6103282,Keep distance to the lead vehicle because it is directly ahead in the same lane.
+101,d97b3d28-a4bb-432c-bbc8-e35faafdc950,6000000,0.77143514,Keep distance to the lead vehicle because it is directly ahead in the same lane
+101,64163088-c3e5-4bc5-a47b-428baab7a55c,6000000,2.265889,Stop at the stop line because the straight traffic light is red.
+101,c0858083-6441-4086-89dc-a140e74b1aa0,6000000,1.5244524,Keep lane to continue driving since the road ahead is clear
+101,5b53ecca-1435-42d6-8e9b-da733ee6fdc3,6000000,3.4425025,Keep lane to continue driving since the lane ahead is clear.
+101,c54041f0-f904-4d8e-836f-4cd8de38b845,6000000,1.323052,Stop for the stop sign ahead.
+101,471f6497-68ba-42d3-b1b9-2e983796bae0,6000000,1.2507712,Nudge left to pass the vehicle pulling out from the right curb
+101,7c66bf00-2248-4b43-a8e9-634d47721472,6000000,1.5285741,Nudge to the left to increase clearance from the parked vehicle on the right.
+101,a4cf42fd-18eb-4338-ad02-89998e961cb5,6000000,0.6965132,Keep speed through the intersection since the straight traffic light is green
+101,c35a11e9-7f05-417b-b1f5-7a44a39685b3,6000000,2.09063,Accelerate to proceed through the intersection since the straight traffic light is green.
+101,d2b17fc4-abb7-460b-b03b-5bcbaf0b4535,6000000,0.3434214,"Maintain lane and continue straight through the green because the right lane ahead is open and a bicyclist is crossing in the near-right corner, making a lane change unsafe right now."
+101,a72bb212-7f1d-420e-8cf9-03ede3e8bcda,6000000,0.73469114,Stop for the red traffic light
+101,dadd217f-7b5e-4f56-af5f-d650d24b015c,6000000,2.5284202,Adapt speed for the right-hand curve ahead
+101,145394a0-b482-437f-8c96-dc5713581bdf,6000000,0.15270203,Nudge left to increase clearance from the parked vehicle ahead.
+101,58cc3479-8412-4345-9f5a-6cb4f3eed8f0,6000000,13.06122,Keep at the center of the lane to continue driving because no critical agent needs attention.
+101,1435d564-cd7a-481b-8e06-b53be9d449d2,6000000,7.9762287,Keep speed through the intersection since the traffic light is green.
+101,1ac23464-47e8-4911-8a6d-b697dffbabde,6000000,0.7901225,Keep lane to continue driving since no critical agent needs attention.
+101,5471b7d6-8f96-449e-a50d-8e0c5bbc9dee,6000000,2.6755824,Keep distance to the lead motorcycle because it is ahead in the same lane.
+101,08c9d27e-31cf-47f5-84b2-edfd4c1b3c3a,6000000,5.542126,Stop at the stop line because the straight traffic light is red.
+101,90eeb284-be32-426d-a894-bae008b9b6d9,6000000,1.6154101,Stop at the stop line because of the stop sign ahead.
+101,3566c8a2-3768-4264-8468-6df43f368bbb,6000000,8.428164,Stop at the stop line due to the stop sign controlling the intersection.
+101,c47816cf-69d7-4c0f-b178-fb4eb5a3664e,6000000,1.3930775,Adjust speed to keep safe distance from the vehicle ahead
+101,8069fb09-b7ce-49c9-a4bf-dc1f6baee441,6000000,0.9892179,Keep lane to continue driving since the lane ahead is clear.
+101,02cb02ee-1ca8-469b-8f3e-6ed27f742245,6000000,3.720588,Keep at the center of the lane to continue driving since no critical agent needs attention.
+101,97a315d7-0641-4f26-a9ce-8a777d5966df,6000000,3.0511823,Keep speed because the lead vehicle ahead maintains a steady pace and the gap is not closing.
+101,04f690e4-5730-42d4-ba6f-7126cd6512f2,6000000,1.3333118,Keep lane to continue driving because the road ahead is clear.
+101,12552fff-31eb-4fea-8c60-e6925e9e78e0,6000000,1.2251585,Keep distance to the lead vehicle because it is directly ahead in the same lane.
+101,8ddd46be-256f-4226-b993-286d12f94f42,6000000,1.0226268,Keep speed through the intersection since the straight traffic light is green.
+101,a4032e89-7649-4dca-bfa0-9f61a0346d5d,6000000,1.6339813,Stop to keep distance to the lead vehicle
+101,525bbfa7-5bbc-4172-8633-d51d1c73345c,6000000,1.7394493,Yield to the pedestrian in the crosswalk
+101,fba829d0-1daf-41dd-a5e9-3b4d8b6bf8e3,6000000,0.12788172,Stop at the stop line because the straight traffic light is red.
+101,bcf5ceeb-ba22-4393-8d18-8d35154fbaa0,6000000,3.1218815,Keep lane to continue driving since the straight traffic light is green.
+101,b48074b2-b59c-4f8d-bdb0-9238618a6879,6000000,2.1609063,Adapt speed for the right-hand curve on the ramp.
+101,274a9fb7-8ae1-4448-b359-5830b19d1eaa,6000000,1.1835492,Turn right at the intersection since the traffic light is green.
+101,91285840-2a5f-424b-bf9e-8b2b029bbede,6000000,1.4392403,Keep at the center of the lane to continue driving since no critical agent needs attention.
+101,34b0b244-cb6b-4153-ab45-ff0399485e5d,6000000,1.3694305,Accelerate to proceed through the intersection since the straight traffic light is green.
+101,6f95a073-4d25-4871-b541-13d37900d29e,6000000,3.5362995,Nudge left to increase clearance from the parked SUV ahead.
+101,3924e273-35d6-4f1c-839f-9fca7ba6119b,6000000,0.9465613,Adapt speed for the right curve ahead.
+101,b1bb2c75-5850-4f51-8ce6-334a383e573e,6000000,7.325373,Lane change to the left to avoid the right-lane closure marked by construction barrels.
+101,455597f5-a784-4add-8e9a-2dbf229611fb,6000000,3.1440043,Stop at the stop line because the straight traffic light is red.
+101,0683740d-9ce1-413c-9033-2205d4d72f69,6000000,19.067696,Slow down to yield to the pedestrian entering the crosswalk ahead.
+101,04de5b32-5bd3-4f3f-b5ab-26502705672d,6000000,0.29985726,Stop due to the red traffic light.
+101,1ca48876-ee7e-47ba-b032-907ea7569423,6000000,2.651237,Nudge left to pass the parked trucks on the right.
+101,d4d1bbe9-90f4-4549-9a73-33b8c7ddfd81,6000000,1.1817776,Keep speed through the intersection since the straight traffic light is green.
+101,dddfba00-ae05-4632-8d9b-410942027426,6000000,0.61883605,Keep distance to the lead vehicle because it is directly ahead in the same lane.
+101,0b215c69-5a4a-42f6-9c1d-17c68f29154a,6000000,2.3952837,Adapt speed for the ramp curve because the road curves ahead.
+101,b864f516-d996-44c3-8a99-104263e55924,6000000,1.0560782,Nudge left to pass the parked vehicle on the right
+101,2c3e7873-b1c1-485c-a98f-1ea0f04f2b2b,6000000,0.44008917,Keep speed through the intersection since the straight traffic light is green.
+101,dfd48bf1-b464-43b6-89cd-f4aa18d7c765,6000000,1.6708716,Keep distance to the lead vehicle because it is directly ahead in the same lane.
+101,ef95814b-c114-4976-85c4-ebafe13f0406,6000000,1.3312778,Keep distance to the lead vehicle since it is ahead in the same lane.
+101,9523ee82-ab3e-4be8-b76a-8c072deddbd9,6000000,4.2685747,Keep distance to the lead vehicle since it is directly ahead in the same lane.
+101,4df2abb5-d5e4-407e-80a9-5250cc798260,6000000,1.2462119,Stop at the stop sign since the intersection is controlled by a stop sign.
+101,879a9f9d-e330-4b10-9d1a-52a2ef27649f,6000000,1.0863137,Keep speed through the intersection since the traffic light is green.
+101,d4001f75-cbd9-41d9-983b-911b2e750001,6000000,4.491846,Accelerate to proceed through the intersection since the straight traffic light is green.
+101,50f021d9-aea3-408f-9ddd-21683575df3b,6000000,1.6262252,Keep speed through the intersection since the traffic light is green.
+101,933af6ff-ab7e-435b-9e9a-c0e51fc446b0,6000000,0.8247596,Stop due to the stop sign at the intersection.
+101,b9ad21be-e488-496b-b49b-d8141f2b9d84,6000000,2.6004708,Keep at the center of the lane to continue driving. No critical agent need special attention.
+101,4068b442-4354-4943-8768-c73ceafae595,6000000,1.739413,Keep distance to the lead vehicle since the vehicle ahead is moving through the intersection.
+101,2b62b748-f8a3-424a-9515-20d914d66f1d,6000000,1.267685,Stop for the red traffic light.
+101,2c59d704-a968-47c0-9c28-57d29b7ad3e5,6000000,0.6424493,Adapt speed to slow for the speed hump ahead.
+101,b740c2e7-cff7-4821-835a-f9ceb9a645db,6000000,0.2569658,Keep lane to continue driving since no critical agent needs attention
+101,43dafd09-c032-4275-a75a-e9fb930b7da3,6000000,0.15732849,Keep at the center of the lane to continue driving since the road ahead is clear.
+101,6757e062-0115-409a-ae07-0c3e017bf024,6000000,1.0552403,Stop to yield to the pedestrian in the crosswalk ahead.
+101,fbe69adb-2c1c-445f-a273-fba8b93c3814,6000000,2.8523798,Nudge left to pass the parked pickup on the right
+101,a194ada9-e79e-4046-a3ca-00809b75fe43,6000000,0.8012723,Keep lane to continue driving since no critical agent needs attention.
+101,54ee66f0-8a09-484e-8d25-e5dde46d01df,6000000,0.73796177,Keep distance to the lead vehicle ahead
+101,6b6c45b9-f13d-434a-b38f-031481c06834,6000000,1.377811,Stop due to the stop sign at the intersection.
+101,dfb345c3-1c71-440d-bcfb-947a1fc6397c,6000000,1.0887395,Nudge right to pass the stopped vehicle ahead
+101,1f623575-52f0-4970-ba78-dc9723ce4bc4,6000000,3.5044248,Nudge left to pass the parked car on the right side
+101,7d6eff1c-da47-41c2-ad6e-7441da893b76,6000000,0.33344114,Keep lane to continue driving since no critical agent needs attention.
+101,8e20fc20-f0b3-446a-a476-f3df76e54cbf,6000000,2.036572,Keep distance to the lead vehicle as it slows to enter the roundabout.
+101,6ee7c844-04e3-474c-a28b-86d5911f44e9,6000000,16.144913,Stop at the stop line since the straight traffic light is red.
+101,6bcf812c-f458-4dbf-b0dd-fa1abda8fd6f,6000000,0.7072545,Keep distance to the lead vehicle because it is directly ahead in the same lane.
+101,4a0ebc29-0c61-4a9c-bd3f-16476f1b1590,6000000,0.2112651,Keep distance to the lead vehicle since it is ahead in the same lane
+101,60db5390-15be-4c27-8303-25a22f4256d3,6000000,1.8608284,Stop due to the stop sign controlling the intersection
+102,2bbbebee-ec4e-4472-b35c-d9f0be0a3d6c,6000000,0.33678374,Keep lane to continue driving since no critical agent needs attention
+102,679db6de-1fde-4961-93e9-06e023be5284,6000000,4.546751,Yield to the pedestrian crossing the road ahead
+102,b5fc2b06-0258-4366-942f-082560cdc5c1,6000000,1.8736764,Keep distance to the lead scooter because it is ahead in the same lane.
+102,655c2e3e-f78a-49be-ba66-319fb97808bc,6000000,4.31482,Turn right at the intersection since the traffic light is green.
+102,18c9423a-2623-4962-add1-fc8bb934f6bc,6000000,0.86180687,Stop due to the stop sign
+102,c6ebd7ac-ab93-430b-9646-5c11687785ad,6000000,0.021455586,Stop for the red traffic light.
+102,c52c5456-1d98-470b-b3aa-2ead2fe36043,6000000,1.1235089,Keep distance to the lead vehicle because it is ahead in the same lane
+102,d2371335-569f-4d69-93dd-6f382c6e6065,6000000,6.922358,Keep lane to continue driving since no critical agent is present.
+102,39da6566-8467-4842-b667-946aeba19a5e,6000000,0.33361584,Stop at the stop line for the stop sign.
+102,c0df9078-45eb-496d-83d0-4e083001ee4d,6000000,4.4618278,Keep at the center of the lane to continue driving since the road ahead is clear.
+102,54c9ad3b-27fa-48ea-8b76-501871e87db6,6000000,1.643949,Stop for the stop sign at the intersection.
+102,0fe48c83-9de2-4776-8d36-4cb1bf40faa7,6000000,0.49577874,Stop for the stop sign at the intersection.
+102,5389521b-7043-4caf-bbe5-ad7943e24f40,6000000,1.0486544,Turn right at the intersection since the crossing vehicle has cleared.
+102,b93c6247-7f24-45c9-8b38-2b36d67440d1,6000000,9.508166,Adapt speed for the right-curving on-ramp
+102,d688f5e8-5e16-4c0e-bb57-94b8c83dab6d,6000000,1.1235,Nudge left to pass the parked vehicle on the right
+102,8dc69e2c-b7fa-4779-bd6e-11122ff84c7b,6000000,0.9933687,Keep distance to the lead vehicle to maintain a safe following gap
+102,402d369a-5875-437e-8b4e-590d67a4894f,6000000,1.1330684,Stop at the stop line because the straight traffic light is red.
+102,687b85bc-85a7-41b7-b91d-2f430db21aae,6000000,1.9545777,Keep speed through the intersection since the straight traffic light is green.
+102,0db40323-d9ae-4fbc-bdc2-215c8294b741,6000000,2.2833333,Keep distance to the lead vehicle because it is directly ahead in the same lane.
+102,9a752101-c484-4d07-9bca-281292defd9a,6000000,0.1899684,Nudge left to pass the parked vehicle on the right side
+102,90c67af8-c733-47e1-a1bd-a7842ca44d0e,6000000,8.566286,Nudge left to pass the parked car on the right.
+102,262051b9-357c-4864-b4da-64bddb3faee8,6000000,0.034396827,Stop at the stop line because the straight traffic light is red.
+102,83c95a3c-da30-4a0f-871d-a6889f324bd9,6000000,0.97601235,Stop for the red straight traffic light.
+102,1b14317c-95c4-4cb1-8ca8-69f0c77a0e51,6000000,1.7610732,Nudge to the left to pass the parked van encroaching into the lane.
+102,39665259-517a-4f2a-92f7-d0d3cd9fcc33,6000000,2.3313656,Slow down to turn right at the intersection.
+102,46c50d89-ddda-4ce8-a5af-e8ea4b4b19bd,6000000,0.79694486,Keep speed through the intersection since the straight traffic light is green.
+102,2f174b92-9ab0-48ff-abf5-06f964297c5e,6000000,0.4374332,Stop at the stop line for the stop sign.
+102,6b0ef4fe-14dd-422c-91bd-d161d6e4f25f,6000000,3.0382154,Adapt speed to slow for the right-hand curve ahead.
+102,204c1435-66d6-4b3d-beff-833f09b54936,6000000,1.0832572,Keep at the center of the lane to continue driving because no critical agent requires attention
+102,6cc0e04f-b82c-4ff7-96dc-b930eda40ea1,6000000,0.27582142,Stop for the stop sign at the intersection
+102,002ae4d8-ef9d-49ff-a7ba-0778fadbd98b,6000000,0.69447696,Keep at the center of the lane to continue driving since no critical agent needs attention.
+102,909ea6f1-30a4-4b6b-921e-913e7c89066b,6000000,0.20213932,Keep speed through the intersection since the straight traffic light is green.
+102,85ad19e0-5e15-4ab1-a949-120c3bd05637,6000000,1.3067873,Keep at the center of the lane to continue driving since the road ahead is clear.
+102,461e75ec-a36e-43fe-9361-9796a29461af,6000000,5.986455,Accelerate to proceed through the intersection
+102,06e1eb8c-db4f-4536-a3d4-16e9d6391a28,6000000,1.5498658,Nudge left to pass the parked pickup on the right
+102,aa454880-1220-464f-846d-a62691d77d67,6000000,1.5869919,Keep distance to the lead vehicle because it is directly ahead in the same lane.
+102,408f66cd-fa3c-4353-b5e9-25fe9d216bd9,6000000,0.96418124,Stop due to the stop sign at the intersection
+102,851fc6be-57c1-4ba5-91fa-13b53921a599,6000000,0.6284708,Stop for the stop sign.
+102,61eac852-d015-4a6b-a539-4eb998451495,6000000,0.8523365,"Change lanes to the right to position in the right lane/prepare for an upcoming right-hand curve while the road curves right, with no nearby vehicles constraining the maneuver."
+102,046c1ca9-de2a-4c7d-9538-f8b4f5ffe597,6000000,0.5463814,Stop to keep distance to the lead vehicle
+102,5005598b-c59b-454e-a7e7-c021eb1c03dd,6000000,2.008686,Stop for the red traffic light.
+102,b63909c5-7b62-491f-840d-f6f64b5bd36d,6000000,1.6261027,Keep distance to the lead vehicle since it is directly ahead in the same lane.
+102,6bbd80f0-d344-4bb1-a35f-6181e4c45c86,6000000,9.241657,Accelerate to proceed through the intersection since the straight traffic light turns green.
+102,f4e7e9ad-c2ce-475d-9631-00c7486517dc,6000000,2.2551365,Nudge left to pass the parked vehicle on the right
+102,844dbffc-20ef-4ded-8c84-a15e950dd3ba,6000000,2.5186477,Adapt speed for the right curve ahead.
+102,b7e4acff-2322-4343-a9b8-db2d99b255f7,6000000,0.8319299,"Maintain lane and wait for a usable gap to change into the left lane because an SUV is traveling alongside in the left lane through the intersection, making an immediate lane change unsafe."
+102,3fec0d8b-bc23-4f89-a759-8dc50b064fe3,6000000,1.228301,Keep distance to the lead vehicle because it is directly ahead in the same lane.
+102,2923b766-452c-43d3-aac5-da3a57ef877e,6000000,1.2634182,Decelerate to maintain a safe distance to the lead vehicle.
+102,7fce8a81-da36-4c2e-8fa7-6302b6c41a2c,6000000,0.7582056,Stop due to the stop sign at the intersection
+102,7ac67cfd-5720-47bc-9fdb-b1a17ee4be89,6000000,7.029458,Keep lane to continue driving since no critical agent needs attention.
+102,e49d4d15-312d-4794-a689-78133b795f4e,6000000,1.9438444,Stop for the stop sign.
+102,112b498f-bffe-4f66-b90b-5b96f4653526,6000000,4.677361,Stop to keep distance to the lead vehicle
+102,317c1fdf-562a-4251-aec8-6f40563f9158,6000000,2.183136,Keep distance to the lead vehicle because it is slowing ahead.
+102,c8e4cce1-6932-4a35-8419-072cd6c656a4,6000000,3.6418462,Turn right at the intersection since the intersection is clear.
+102,427417f3-a688-4834-bb73-4527725b5f07,6000000,0.30214477,Slow down for the upcoming stop sign.
+102,089de23c-c478-4406-aaef-4c59bef37e64,6000000,0.25872108,Keep lane since the road ahead is clear
+102,487dc724-dc5d-452d-9148-4b617ae49123,6000000,2.2998776,Keep distance to the lead vehicle because it is slowing ahead.
+102,e99be51e-42a9-407c-8de5-bfd15395e486,6000000,3.9163609,Keep lane to continue driving since no critical agent needs attention.
+102,f922e4bc-7bf3-4c4d-a254-63fadb4fd2fe,6000000,0.93637764,Stop for the stop sign at the intersection
+102,6dc47a88-6bff-4f87-9f07-f6efba903f88,6000000,0.3014809,Keep at the center of the lane to continue driving since no critical agent needs attention.
+102,9a8fab92-4412-49e3-9863-ec3534985c33,6000000,0.58774155,Keep lane to continue driving since the lane ahead is clear.
+102,2c1f83e8-6567-4d6e-b44a-0716657ef551,6000000,5.948718,Keep at the center of the lane to continue driving since no critical agent needs attention.
+102,ba76eb7c-0b66-4c97-8b4f-ab97080b0e27,6000000,0.82227457,Nudge left to pass the parked car on the right
+102,2234e317-0d3a-4baa-bd8e-ce12c606d70a,6000000,4.2928095,Keep at the center of the lane to continue driving since no critical agent needs attention.
+102,9f3693bd-48e1-4f48-be49-b5f139ad95c9,6000000,0.7545785,Keep distance to the cyclist ahead to maintain a safe gap.
+102,2b92f08e-09de-4719-88fa-57460d7817d2,6000000,3.68749,Keep lane to continue driving because the lane ahead is clear.
+102,33829af8-0884-406e-bdae-a20ea9771ff3,6000000,0.77065134,Keep distance to the lead vehicle because it slows near the intersection.
+102,85b16277-47d9-4217-9777-1275e5380fc8,6000000,0.34752536,Stop due to the stop sign at the intersection
+102,223080bc-e53a-49ed-8eeb-1d859d74f4f2,6000000,0.93701595,Accelerate to proceed through the intersection since the straight traffic light is green.
+102,5d5ccc3b-e5f9-4225-8fe0-7904f28b4d11,6000000,6.6178193,Decelerate to maintain a safe distance to the lead vehicle.
+102,5810f42a-36ef-4cfe-8095-bb3fe64b92ae,6000000,1.59129,"Maintain lane and wait for a gap to the left because a vehicle is passing alongside in the left lane through the intersection, preventing an immediate left lane change."
+102,dffdd8a8-9673-4e0c-b9c4-46dfac7517f7,6000000,2.637462,Gap-search to match the mainline speed because the ramp merges into the mainline ahead.
+102,71f75b2f-6623-4763-b2bf-a213f34d032f,6000000,0.59171975,Nudge left to pass the parked vehicle on the right
+102,f9e20e45-3fdd-48c1-9533-d5ccf07c06cb,6000000,2.9115531,Stop to yield to the pedestrian in the crosswalk.
+102,74c0541f-6773-41e2-8aaf-38c99d3c98f0,6000000,0.5168382,Stop to yield to the pedestrian in the crosswalk.
+102,23735303-2433-40bb-8b52-a00a4ebeb097,6000000,2.6986809,Slow down due to a bus crossing the intersection ahead
+102,1e8bdc56-3c14-483e-8043-7682a2560a3f,6000000,2.21342,Keep distance to the lead vehicle since it is directly ahead in the same lane.
+102,5db36ef8-453b-4f96-a8a3-f8b4f1b6a088,6000000,1.5262016,Stop to yield to the cross traffic at the intersection
+102,830574bf-917d-4b06-ad71-ca79ada7f9d9,6000000,1.3094932,Stop at the stop line because the straight traffic light is red.
+102,0a3f3f16-6fca-4873-a711-c3ae36f17e82,6000000,14.072138,Keep speed through the intersection since the straight traffic light is green.
+102,25c72992-01ff-4fd4-8af4-f15fef7a9693,6000000,1.7131085,"Maintain lane and wait for a gap to the left because a faster car is overtaking in the left lane, making an immediate left lane change unsafe while following the slower lead vehicle ahead."
+102,edc4b36e-c1ac-4a08-9034-f616865f9097,6000000,0.8003634,Nudge left to pass the parked vehicle on the right
+102,30ab9629-f988-4a37-afd1-7848a1687055,6000000,2.056849,Keep distance to the lead vehicle to maintain a safe following gap
+102,44b49299-8404-4f57-b447-aadea8093948,6000000,2.1447809,Brake to a stop for the red traffic light at the upcoming intersection.
+102,3cc9c6af-1b7f-4ef8-9dab-2786bd2cb121,6000000,0.2796086,Keep lane to continue driving since the road ahead is clear.
+102,42d6f720-6e33-4bca-83d4-14ef917fedc0,6000000,4.248497,Change lanes to the left to continue straight through the intersection and avoid being trapped in the right‑turn‑only lane and the right‑turning car ahead.
+102,6b5643c7-652f-406d-b458-6fd224549d77,6000000,0.7037844,Nudge to the right to increase clearance from the oncoming vehicle.
+102,2965be6c-332c-4b4e-a6cf-d6da2b28d8f7,6000000,3.8890607,Nudge left to avoid the parked car on the right side
+102,66c60cc5-618c-49e9-89c6-10e6e4d1df7a,6000000,1.3986807,Keep speed through the intersection since the traffic light is green.
+102,689889c5-95b0-42ce-a1c9-f97a4388cb28,6000000,2.406899,Nudge to the left to pass the parked vehicle encroaching on the lane
+102,2c93cb25-50ca-43f9-9c36-e94ed4894385,6000000,1.6823055,Change lanes to the left to pass the slower lead vehicle and position in the clearer through lane approaching the intersection.
+102,349ba4db-c517-4010-a905-6741952a4064,6000000,0.52710927,Nudge left to pass the parked vehicle on the right.
+102,315d694e-cce2-4c61-a52a-09a86823a661,6000000,0.65500927,Stop at the stop sign since the intersection ahead is controlled.
+102,b391916c-374a-45d7-a1cb-b640edb2f57e,6000000,1.4165118,Keep speed through the intersection since the straight traffic light is green.
+102,b292f94c-85c8-414e-adf9-8713ecb6c6d9,6000000,0.71167636,Accelerate to proceed through the intersection since the straight traffic light is green.
+102,a7d9731f-12d2-4f25-860d-3814db57c00a,6000000,1.5845516,Keep distance to the lead vehicle because it is ahead in the same lane
+102,128506e8-9149-4429-aa1c-6a2752b42cdf,6000000,4.691263,Nudge left to pass the vehicle merging from the right
+102,46d1e367-ba2f-4235-8cf3-8ff8cbd9a2bd,6000000,2.3492775,Slow down to prepare to stop for the upcoming stop sign.
+102,bd80ffa2-f28d-497e-9dcc-89e11083ed2d,6000000,1.67476,Turn right at the intersection since the right-turn traffic light is green.
